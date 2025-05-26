@@ -1,42 +1,36 @@
+---
+title: SPID Protocol SDK
+---
+
 # SPID Protocol SDK
 
-The **SPID Protocol SDK** enables you to publish and retrieve Smart Packets — structured, voice-ready, AI-retrievable answers — using a lightweight, open standard designed for the AI Web. SPID is the routing layer that powers identity, intent, and resolution for asynchronous, AI-powered communication.
+The **SPID Protocol SDK** enables you to publish and retrieve Smart Packets — structured, voice-ready, AI-retrievable answers — using a lightweight, open standard designed for the AI Web.
 
-This is a production-ready evolution of our early work on Smart Packets, now formalized into an open schema and SDK for developers, publishers, and AI agents.
+SPID is the routing layer that powers identity, intent, and resolution for asynchronous, AI-powered communication.
 
 ## Core Concepts
 
-* **Smart Packets**: Structured voice messages with transcript, intent, metadata, and call-to-action (CTA) buttons
-* **SPIDs**: Globally unique identifiers that resolve to Smart Packets
-* **PulseIDs**: Async voice inboxes for people, businesses, or agents
-* **Intents**: Descriptions of the message purpose with dynamic CTA generation
+- **Smart Packets**: Structured voice messages with transcript, intent, metadata, and CTAs
+- **SPIDs**: Globally unique identifiers that resolve to Smart Packets
+- **PulseIDs**: Async voice inboxes for people, businesses, or agents
+- **Intents**: Describe the purpose and auto-generate actions
 
 ## Why Use the SPID Protocol SDK
 
-### Design Principles
+### Principles
 
-* **Structure over sprawl**: Clean, reproducible formatting and metadata
-* **Human-first**: Designed for voice, identity, and permission-aware communication
+- **Structure over sprawl** — clean formatting & metadata
+- **Human-first** — built for voice, identity, and permission
 
 ### Key Features
 
-* **Smart Packet Format**: Universal container for transcript, audio, CTAs, and identity
-* **SPID Resolution**: Retrieve packets by SPID (e.g. `spid://rick.voicemate.id/lead-mortgage-0325`)
-* **Intent Mapping**: Automatically infer and attach next-step CTAs
-* **PulseID Routing**: Route replies to personal voice inboxes
-* **Open Standards**: Fully open schema, no vendor lock-in
+- **Smart Packet Format**
+- **SPID Resolution**
+- **Intent-to-CTA Mapping**
+- **PulseID Routing**
+- **Open Schema / No Lock-in**
 
-## Installation (coming soon)
-
-```bash
-npm install spid-sdk
-```
-
-```bash
-pip install spid-protocol
-```
-
-## Hello World Packet (JSON)
+## Hello World Packet
 
 ```json
 {
@@ -52,34 +46,3 @@ pip install spid-protocol
     ]
   }
 }
-```
-
-## Intent Mapping Example
-
-```json
-{
-  "intent": "book_meeting",
-  "ctas": [
-    { "label": "Schedule Now", "type": "calendar", "url": "https://calendly.com/rick-voicemate" },
-    { "label": "Ask a Question", "type": "message", "target": "pulse://rick.voicemate.id" }
-  ]
-}
-```
-
-## How to Use
-
-1. Generate a Smart Packet (voice + metadata)
-2. Assign a SPID
-3. Upload it to your SPID directory or server
-4. Share or resolve it in AI assistants or apps
-
-## Environment Variable (if needed)
-
-```bash
-export SPID_API_KEY=sk-...
-```
-
-## Learn More
-
-* Official spec: [https://spidprotocol.org](https://spidprotocol.org)
-* Packet viewer: [https://myvoicemate.com](https://myvoicemate.com)
