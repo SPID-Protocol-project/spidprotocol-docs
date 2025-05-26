@@ -1,0 +1,17 @@
+{
+  "id": "intro",
+  "title": "SPID Protocol SDK",
+  "description": "The SPID Protocol SDK enables you to publish and retrieve Smart Packets — structured, voice-ready, AI-retrievable answers — using a lightweight, open standard designed for the AI Web.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/spidprotocol-docs/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "SPID Protocol SDK"
+  },
+  "sidebar": "tutorialSidebar"
+}
