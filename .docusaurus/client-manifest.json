@@ -1,0 +1,355 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "42": [
+      42
+    ],
+    "341": [
+      61,
+      401,
+      869,
+      341
+    ],
+    "17896441": [
+      341,
+      869,
+      401
+    ],
+    "32412706": [
+      582
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "0e384e19": [
+      976
+    ],
+    "14eb3368": [
+      869,
+      969
+    ],
+    "18c41134": [
+      262
+    ],
+    "1e4232ab": [
+      953
+    ],
+    "1f391b9e": [
+      341,
+      869,
+      61
+    ],
+    "393be207": [
+      134
+    ],
+    "533a09ca": [
+      98
+    ],
+    "5c868d36": [
+      974
+    ],
+    "5e95c892": [
+      647
+    ],
+    "822bd8ab": [
+      748
+    ],
+    "94f811f8": [
+      230
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      717
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "c23689a6": [
+      847
+    ],
+    "c4f5d8e4": [
+      869,
+      634
+    ],
+    "dff1c289": [
+      724
+    ],
+    "e44a2883": [
+      736
+    ],
+    "f55d3e7a": [
+      863
+    ],
+    "styles": [
+      48,
+      61,
+      341,
+      354,
+      401,
+      634,
+      792,
+      969,
+      869
+    ]
+  },
+  "assets": {
+    "42": {
+      "js": [
+        {
+          "file": "assets/js/42.29482464.js",
+          "hash": "7b329cc7774c1a97",
+          "publicPath": "/spidprotocol-docs/assets/js/42.29482464.js"
+        }
+      ]
+    },
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.2eeaa82b.js",
+          "hash": "fc01acb5f0d59794",
+          "publicPath": "/spidprotocol-docs/assets/js/a94703ab.2eeaa82b.js"
+        }
+      ]
+    },
+    "61": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.c28c8fea.js",
+          "hash": "93076802d4cbc7ab",
+          "publicPath": "/spidprotocol-docs/assets/js/1f391b9e.c28c8fea.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/533a09ca.35a27bf2.js",
+          "hash": "45d7d22dc85b6c4f",
+          "publicPath": "/spidprotocol-docs/assets/js/533a09ca.35a27bf2.js"
+        }
+      ]
+    },
+    "134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.c8352e3b.js",
+          "hash": "bf54dc3823a8b3cc",
+          "publicPath": "/spidprotocol-docs/assets/js/393be207.c8352e3b.js"
+        }
+      ]
+    },
+    "230": {
+      "js": [
+        {
+          "file": "assets/js/94f811f8.aa89e536.js",
+          "hash": "a80bfd9688441f72",
+          "publicPath": "/spidprotocol-docs/assets/js/94f811f8.aa89e536.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.5c388da2.js",
+          "hash": "04d455a557b12c06",
+          "publicPath": "/spidprotocol-docs/assets/js/a7456010.5c388da2.js"
+        }
+      ]
+    },
+    "262": {
+      "js": [
+        {
+          "file": "assets/js/18c41134.efaa9dbe.js",
+          "hash": "0f6f262ac3f5bf16",
+          "publicPath": "/spidprotocol-docs/assets/js/18c41134.efaa9dbe.js"
+        }
+      ]
+    },
+    "341": {
+      "js": [
+        {
+          "file": "assets/js/341.5f851bdc.js",
+          "hash": "918902302962632a",
+          "publicPath": "/spidprotocol-docs/assets/js/341.5f851bdc.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.6f34827b.js",
+          "hash": "23f4a7e2afc38f5b",
+          "publicPath": "/spidprotocol-docs/assets/js/runtime~main.6f34827b.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.44f004a1.js",
+          "hash": "9c3967575530fea8",
+          "publicPath": "/spidprotocol-docs/assets/js/17896441.44f004a1.js"
+        }
+      ]
+    },
+    "582": {
+      "js": [
+        {
+          "file": "assets/js/32412706.8a6c5a65.js",
+          "hash": "9a4906b5473dcfb5",
+          "publicPath": "/spidprotocol-docs/assets/js/32412706.8a6c5a65.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.453411bd.js",
+          "hash": "78dd1829b945f825",
+          "publicPath": "/spidprotocol-docs/assets/js/c4f5d8e4.453411bd.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.49b1f5ab.js",
+          "hash": "232949dbcd69d16d",
+          "publicPath": "/spidprotocol-docs/assets/js/5e95c892.49b1f5ab.js"
+        }
+      ]
+    },
+    "717": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.4f74b081.js",
+          "hash": "1801617869f2cd8b",
+          "publicPath": "/spidprotocol-docs/assets/js/a7bd4aaa.4f74b081.js"
+        }
+      ]
+    },
+    "724": {
+      "js": [
+        {
+          "file": "assets/js/dff1c289.831bb9b6.js",
+          "hash": "e3a7f214eb56911f",
+          "publicPath": "/spidprotocol-docs/assets/js/dff1c289.831bb9b6.js"
+        }
+      ]
+    },
+    "736": {
+      "js": [
+        {
+          "file": "assets/js/e44a2883.a116604e.js",
+          "hash": "7e2fc93e0b9b6df9",
+          "publicPath": "/spidprotocol-docs/assets/js/e44a2883.a116604e.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.0ac2543b.js",
+          "hash": "0336c8153e00144c",
+          "publicPath": "/spidprotocol-docs/assets/js/aba21aa0.0ac2543b.js"
+        }
+      ]
+    },
+    "748": {
+      "js": [
+        {
+          "file": "assets/js/822bd8ab.b387ff6b.js",
+          "hash": "9a5771690c2b1727",
+          "publicPath": "/spidprotocol-docs/assets/js/822bd8ab.b387ff6b.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.14d94452.js",
+          "hash": "0d5c9a830ca7d1e5",
+          "publicPath": "/spidprotocol-docs/assets/js/main.14d94452.js"
+        }
+      ]
+    },
+    "847": {
+      "js": [
+        {
+          "file": "assets/js/c23689a6.69fe7686.js",
+          "hash": "80725e0e6f86f50d",
+          "publicPath": "/spidprotocol-docs/assets/js/c23689a6.69fe7686.js"
+        }
+      ]
+    },
+    "863": {
+      "js": [
+        {
+          "file": "assets/js/f55d3e7a.dc816463.js",
+          "hash": "f3dfe41506a4252c",
+          "publicPath": "/spidprotocol-docs/assets/js/f55d3e7a.dc816463.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.df7813df.css",
+          "hash": "cf8d60fb2fb79e30",
+          "publicPath": "/spidprotocol-docs/assets/css/styles.df7813df.css"
+        }
+      ]
+    },
+    "953": {
+      "js": [
+        {
+          "file": "assets/js/1e4232ab.eeecf6c3.js",
+          "hash": "f797350c6cbb3626",
+          "publicPath": "/spidprotocol-docs/assets/js/1e4232ab.eeecf6c3.js"
+        }
+      ]
+    },
+    "969": {
+      "js": [
+        {
+          "file": "assets/js/14eb3368.91065d4f.js",
+          "hash": "b501d6c17a56306b",
+          "publicPath": "/spidprotocol-docs/assets/js/14eb3368.91065d4f.js"
+        }
+      ]
+    },
+    "974": {
+      "js": [
+        {
+          "file": "assets/js/5c868d36.08b0fc64.js",
+          "hash": "adeb9dccda457179",
+          "publicPath": "/spidprotocol-docs/assets/js/5c868d36.08b0fc64.js"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.14d95c2b.js",
+          "hash": "a99a11c3849fc0ec",
+          "publicPath": "/spidprotocol-docs/assets/js/0e384e19.14d95c2b.js"
+        }
+      ]
+    }
+  }
+}
