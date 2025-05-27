@@ -6,11 +6,12 @@ export default function Home() {
   return (
     <Layout title="SPID Protocol" description="Smart Packets. Structured Answers. Voice-Ready.">
       <header className={styles.hero}>
-        <div className={styles.container}>
-          <h1 className={styles.title}>SPID Protocol</h1>
-          <p className={styles.tagline}>Smart Packets. Structured Answers. Voice-Ready.</p>
-        </div>
-      </header>
+  <div className={styles.container}>
+    <h1 className={styles.title}>SPID Protocol</h1>
+    <p className={styles.tagline}>Smart Packets. Structured Answers. Voice-Ready.</p>
+  </div>
+</header>
+
       <main className={styles.main}>
         <section className={styles.section}>
           <h2>What is SPID?</h2>

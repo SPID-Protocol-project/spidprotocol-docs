@@ -28,10 +28,23 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* White navbar text for dark background */
 .navbar {
-  background-color: #20232a;
-  border-bottom: 1px solid #444;
+  background-color: #000; /* black bar */
 }
+
+.navbar__title,
+.navbar__item,
+.navbar__link {
+  color: #ffffff !important;  /* force white */
+}
+
+.navbar__item:hover,
+.navbar__link:hover {
+  color: #dddddd !important;  /* slightly lighter on hover */
+}
+
+
 
 .hero__title, h1, h2, h3 {
   font-weight: 600;

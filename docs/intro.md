@@ -1,35 +1,47 @@
-import React from 'react';
-import Layout from '@theme/Layout';
-import styles from './index.module.css';
+# Welcome to the SPID Protocol Docs
 
-export default function Home() {
-  return (
-    <Layout title="SPID Protocol" description="Smart Packets. Structured Answers. Voice-Ready.">
-      <main className="container margin-vert--lg">
-        <div className="row">
-          <div className="col col--8 col--offset-2">
-            <h1>SPID Protocol</h1>
-            <p className="hero__subtitle">Smart Packets. Structured Answers. Voice-Ready.</p>
+The **Smart Packet Identifier (SPID) Protocol** is a modern resolution and retrieval system for AI-powered, intent-aware, and voice-ready communication.
 
-            <h2>What is SPID?</h2>
-            <p>SPID is a resolution and retrieval protocol for AI agents, apps, and users...</p>
+---
 
-            <h2>Why It Matters</h2>
-            <p><code>spid://acme/widget123</code> → Instantly retrieves the structured packet</p>
+## 🔍 What is SPID?
 
-            <h2>Key Components</h2>
-            <ul>
-              <li><strong>Smart Packet Format</strong></li>
-              <li><strong>SPID URIs</strong></li>
-              <li><strong>SPID Directory</strong></li>
-              <li><strong>PulseIDs</strong></li>
-            </ul>
+SPID defines how apps, AI assistants, and users access **Smart Packets** — structured, portable content units that include metadata, transcripts, intents, and actions.
 
-            <h2>Get Involved</h2>
-            <p>Email: <a href="mailto:hello@voicemate.id">hello@voicemate.id</a></p>
-          </div>
-        </div>
-      </main>
-    </Layout>
-  );
-}
+It’s optimized for:
+- ✅ Voice-first environments  
+- ✅ Intent-based interactions  
+- ✅ Retrieval-based AI (not crawling)
+
+Think of it like DNS + Open Graph + email — for the AI era.
+
+---
+
+## 🚀 Why It Matters
+
+Traditional systems rely on scraping and guessing. SPID uses resolution:
+
+```
+spid://acme/widget123
+```
+
+Instantly resolves a structured, human-approved Smart Packet.
+
+---
+
+## 📦 Key Components
+
+- **Smart Packet Format** — Self-contained structured answers
+- **SPID URIs** — Globally unique identifiers
+- **SPID Directory** — Central resolution + metadata lookup
+- **PulseIDs** — Async inboxes for agents and people
+
+---
+
+## 💬 Get Involved
+
+Have ideas or questions?  
+👉 [hello@voicemate.id](mailto:hello@voicemate.id)  
+🌐 [spid.directory](https://spid.directory)
+
+Let’s build the AI Web together.
