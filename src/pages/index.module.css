@@ -1,35 +1,46 @@
 .hero {
-  background-color: #000;
-  color: #fff;
+  background-color: #0f1117;
+  color: white;
   padding: 4rem 1rem;
   text-align: center;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .title {
   font-size: 3rem;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .tagline {
-  font-size: 1.25rem;
-  margin-top: 1rem;
+  font-size: 1.5rem;
+  opacity: 0.85;
 }
 
 .main {
   padding: 2rem 1rem;
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 .section {
-  margin-bottom: 2.5rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-left: 4px solid #e6007a;
+  background-color: #f9f9f9;
+  border-radius: 6px;
 }
 
 .section h2 {
-  margin-bottom: 0.75rem;
+  margin-top: 0;
+}
+
+.section code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
 }

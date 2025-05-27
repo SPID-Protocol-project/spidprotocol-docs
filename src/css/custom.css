@@ -28,3 +28,23 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+.navbar {
+  background-color: #20232a;
+  border-bottom: 1px solid #444;
+}
+
+.hero__title, h1, h2, h3 {
+  font-weight: 600;
+}
+
+.hero__subtitle, p {
+  color: #ccc;
+}
+
+.container {
+  padding: 2rem;
+}
+
+a {
+  color: #61dafb;
+}

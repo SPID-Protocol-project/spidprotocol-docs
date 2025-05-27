@@ -31,34 +31,44 @@ module.exports = {
   ],
 
   themeConfig: {
-    navbar: {
-      title: 'SPID Protocol',
-      logo: {
-        alt: 'SPID Protocol Logo',
-        src: 'img/logo.svg',
-      },
-      items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Docs',
-        },
-        {
-          href: 'https://github.com/SPID-Protocol-project/spidprotocol-docs',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
-          type: 'search',
-          position: 'right',
-        },
-      ],
-      style: 'dark',
+  navbar: {
+    title: 'SPID Protocol',
+    logo: {
+      alt: 'SPID Protocol Logo',
+      src: 'img/logo.svg',
     },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+    items: [
+      {
+        type: 'doc',
+        docId: 'intro',
+        position: 'left',
+        label: 'Docs',
+      },
+      {
+        href: 'https://github.com/SPID-Protocol-project/spidprotocol-docs',
+        label: 'GitHub',
+        position: 'right',
+      },
+      {
+        type: 'search',
+        position: 'right',
+      },
+    ],
+  },
+  colorMode: {
+    defaultMode: 'dark',
+    disableSwitch: false,
+    respectPrefersColorScheme: true,
+  },
+  prism: {
+    theme: require('prism-react-renderer/themes/github'),
+    darkTheme: require('prism-react-renderer/themes/dracula'),
+  },
+  docs: {
+    sidebar: {
+      hideable: true,
+      autoCollapseCategories: true,
     },
   },
+},
 };
