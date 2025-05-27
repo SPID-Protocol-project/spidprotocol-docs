@@ -61,3 +61,35 @@
 a {
   color: #61dafb;
 }
+.github-badge {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0969da;
+  font-weight: 600;
+}
+
+.github-link svg {
+  margin-right: 8px;
+}
+
+.github-meta {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  color: #57606a;
+}
