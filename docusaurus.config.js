@@ -38,22 +38,36 @@ module.exports = {
         src: 'img/spid_icon_dark.png',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Docs',
-        },
-        {
-          href: 'https://github.com/SPID-Protocol-project/spidprotocol-docs',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
-          type: 'search',
-          position: 'right',
-        },
-      ],
+  {
+    type: 'doc',
+    docId: 'intro',
+    position: 'left',
+    label: 'Docs',
+  },
+  {
+  type: 'html',
+  position: 'right',
+  value: `
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/v/release/SPID-Protocol-project/spidprotocol-docs?label=version&color=brightgreen" alt="version" />
+      </a>
+      <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/stargazers" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/stars/SPID-Protocol-project/spidprotocol-docs?style=social" alt="stars" />
+      </a>
+      <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/network/members" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/github/forks/SPID-Protocol-project/spidprotocol-docs?style=social" alt="forks" />
+      </a>
+    </div>
+  `,
+},
+
+  {
+    type: 'search',
+    position: 'right',
+  },
+],
+
       style: 'dark',
     },
 
