@@ -38,15 +38,20 @@ presets: [
         path: 'docs',
         routeBasePath: 'docs',
         sidebarPath: require.resolve('./sidebars.js'),
-        // 👇 This enables fallback behavior
         editLocalizedFiles: true,
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
-      ...
-    },
+      blog: {
+        showReadingTime: true,
+      },
+      theme: {
+        customCss: require.resolve('./src/css/custom.css'),
+      },
+    }, // ✅ <-- this closing brace was missing
   ],
 ],
+
 
 
   themeConfig: {
