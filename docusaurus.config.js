@@ -54,19 +54,24 @@ module.exports = {
           position: 'right',
         },
         {
-          type: 'html',
-          position: 'right',
-          value: `
-            <div style="display: flex; align-items: center; gap: 6px;">
-              <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs" title="GitHub Repo">
-                <img src="https://img.shields.io/github/v/release/SPID-Protocol-project/spidprotocol-docs?label=v0.0.1" />
-              </a>
-              <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/stargazers" title="Stars">
-                <img src="https://img.shields.io/github/stars/SPID-Protocol-project/spidprotocol-docs?style=social" />
-              </a>
-            </div>
-          `,
-        },
+           {
+  type: 'html',
+  position: 'right',
+  value: 
+    <div style="display: flex; align-items: center; gap: 6px;">
+      <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs" target="_blank" title="GitHub Repo">
+        <img alt="version" src="https://img.shields.io/github/v/release/SPID-Protocol-project/spidprotocol-docs?label=v0.0.1&color=blueviolet" />
+      </a>
+      <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/stargazers" target="_blank" title="Stars">
+        <img alt="stars" src="https://img.shields.io/github/stars/SPID-Protocol-project/spidprotocol-docs?style=social" />
+      </a>
+      <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/network/members" target="_blank" title="Forks">
+        <img alt="forks" src="https://img.shields.io/github/forks/SPID-Protocol-project/spidprotocol-docs?style=social" />
+      </a>
+    </div>
+  ,
+}
+
       ],
       style: 'dark',
     },
