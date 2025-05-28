@@ -61,7 +61,10 @@ module.exports = {
       `,
     },
   ],
-},
+}
+
+
+
       style: 'dark',
     },
 
