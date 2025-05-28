@@ -1,116 +1,70 @@
+# 🛰️ SPID Protocol
 
-# SPID Protocol Documentation
-
-<img src="https://raw.githubusercontent.com/SPID-Protocol-project/spidprotocol-docs/main/static/img/spid_icon_dark.png" alt="SPID Protocol Logo" width="180" />
-
-**The Smart Packet Identity Layer (SPID)** is an open protocol that powers AI-native, voice-ready communication through structured metadata and universal identifiers. This repository contains the official documentation for SPID and its core components.
+The **SPID Protocol** is an open standard for structured, voice-first communication — enabling AI assistants, agents, and humans to retrieve trusted, actionable content called **Smart Packets**.
 
 ---
 
-## 🚀 What is the SPID Protocol?
+## 📦 What Is a Smart Packet?
 
-The SPID Protocol defines a new standard for async, AI-mediated communication using **Smart Packets** — rich, structured messages containing:
+Smart Packets are AI-native, voice-ready answers that include:
 
-- A short voice message
-- A full transcript
-- Inferred user intent
-- Actionable CTA buttons
-- Verified identity and metadata
+- 🔊 A short voice message (human or AI)
+- 📜 A full transcript
+- 🧠 Intent tags for routing and retrieval
+- 🎯 Up to 3 call-to-action (CTA) buttons
+- 🏷️ Metadata for search, security, and lifespan
 
-SPID is the identity and resolution layer that links each packet to its origin, purpose, and destination. Think of it as **DNS + Schema.org + Email headers for the AI web** — enabling machines to route, respond, and retrieve context-aware messages without noise or ambiguity.
-
----
-
-## 🧠 Why It Matters
-
-Traditional communication (email, calls, SMS) is outdated for an AI-driven world. Smart Packets and SPID enable:
-
-- ✅ **Voice-first communication** that’s human-friendly and AI-optimized
-- 🧩 **Structured data** that powers LLM routing and reasoning
-- 🕸️ **Linkable metadata** for seamless discovery and retrieval
-- 🔐 **Verified identity and intent**, protecting against spam and impersonation
-- 📦 **Portable messages**, ready to be shared, archived, or embedded anywhere
+They're like mini-landing pages for the AI web — structured, portable, and human-approved.
 
 ---
 
-## 📚 Documentation Contents
+## 🔄 What Is SPID?
 
-This repository is built with [Docusaurus](https://docusaurus.io) and contains:
+SPID stands for **Smart Packet Identity** — a unique, verifiable identity for people, brands, and bots to publish and receive Smart Packets.
 
-- `docs/` — Core specs, guides, and implementation details
-- `static/` — SPID logo assets and shared resources
-- `docusaurus.config.js` — Site configuration and navbar settings
+Example PulseIDs:
 
----
-
-## 📦 Get Started
-
-To contribute or run locally:
-
-```bash
-# Install dependencies
-npm install
-
-# Start local dev server
-npm run start
-```
-
-Visit [http://localhost:3000/spidprotocol-docs](http://localhost:3000/spidprotocol-docs) to preview the documentation locally.
+spid:brand:nike-support
+ spid:creator:elena-podcast
+ spid:voiceagent:ai-morty
 
 ---
 
-## 🌐 Live Docs
+## 📚 Documentation
 
-You can explore the live documentation here:  
-👉 **[spidprotocol.org/docs](https://spidprotocol.org/docs)** *(or your deployment link)*
+Start here:
 
----
+- [`/docs/intro.md`](./docs/intro.md) – High-level overview
+- [`/docs/getting-started.md`](./docs/getting-started.md) – Create your first Smart Packet
+- [`/docs/spec.md`](./docs/spec.md) – Full protocol resolution spec
+- [`/docs/use-cases.md`](./docs/use-cases.md) – Explore what's possible
 
-## 🛠️ Core Concepts
-
-- **Smart Packets** – AI-native, voice-powered messages
-- **SPID** – Unique identifier + resolver for every packet
-- **Intent Schema** – Machine-readable tags for AI inference
-- **PulseID** – Optional inbox layer for individuals and agents
-- **SPID Directory** – Registry of public Smart Packets and identities
+Full documentation lives in the [`/docs`](./docs) folder and is powered by Docusaurus.
 
 ---
 
-## 🧩 Related Projects
+## 🛠 Built With
 
-- [`smartpacket.dev`](https://smartpacket.dev) – Smart Packet creator tools
-- [`voicemate.id`](https://voicemate.id) – Personal voice inboxes
-- [`spid.directory`](https://spid.directory) – Public Smart Packet directory
+- 📄 [Docusaurus 2](https://docusaurus.io/)
+- 🧠 Markdown, YAML, and JSON
+- 🌐 Voice-first design principles
+- 🤖 AI-first retrieval logic
 
 ---
 
 ## 🤝 Contributing
 
-We welcome open collaboration. To get involved:
-
-- Fork the repo
-- Create a new branch
-- Submit a pull request
-
-For major changes, please open an issue first to discuss scope and alignment with the protocol spec.
+Contributions welcome! See [`/docs/contributing.md`](./docs/contributing.md) to learn how to help shape the protocol, spec, tools, or use cases.
 
 ---
 
-## 🧠 Learn More
+## 🌍 License
 
-SPID is designed to be a foundational protocol for a more human, async, AI-first future. This project is maintained by [ChatSites Labs](https://chatsites.ai) and its contributors.
-
-For updates, roadmap, and use cases, visit:
-
-👉 [spidprotocol.org](https://spidprotocol.org)  
-👉 [docs.spidprotocol.org](https://spidprotocol.org/docs)
+This project is open source under the [MIT License](./LICENSE).
 
 ---
 
-## 📄 License
+> The SPID Protocol is the voice layer of the structured web.  
+> Join us in building a human-first future — powered by Smart Packets.
 
-This project is open-source under the [MIT License](LICENSE).
 
----
-
-*Built for the era of structured, sovereign, and voice-ready communication.*
