@@ -15,20 +15,22 @@ module.exports = {
   favicon: 'img/spid-icon.ico',
 
   presets: [
-    [
-      'classic',
-      {
-        docs: {
-          routeBasePath: '/docs',
-          sidebarPath: require.resolve('./sidebars.js'),
-        },
-        blog: false,
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+  [
+    'classic',
+    {
+      docs: {
+        routeBasePath: '/', // ✅ This ensures homepage *is* the docs
+        sidebarPath: require.resolve('./sidebars.js'),
+        editUrl: 'https://github.com/SPID-Protocol-project/spidprotocol-docs/edit/main/',
       },
-    ],
+      blog: false,
+      theme: {
+        customCss: require.resolve('./src/css/custom.css'),
+      },
+    },
   ],
+],
+
 
   themeConfig: {
     navbar: {
@@ -62,6 +64,7 @@ module.exports = {
     },
   ],
 }
+
 
 
 
