@@ -1,47 +1,23 @@
-# Welcome to the SPID Protocol Docs
+# SPID Protocol
 
-The **Smart Packet Identifier (SPID) Protocol** is a modern resolution and retrieval system for AI-powered, intent-aware, and voice-ready communication.
-
----
+Smart Packets. Structured Answers. Voice-Ready.
 
 ## 🔍 What is SPID?
 
-SPID defines how apps, AI assistants, and users access **Smart Packets** — structured, portable content units that include metadata, transcripts, intents, and actions.
-
-It’s optimized for:
-- ✅ Voice-first environments  
-- ✅ Intent-based interactions  
-- ✅ Retrieval-based AI (not crawling)
-
-Think of it like DNS + Open Graph + email — for the AI era.
-
----
+SPID is a resolution and retrieval protocol for AI agents, apps, and users to access structured, voice-ready content units called Smart Packets — complete with transcripts, metadata, intents, and CTAs.
 
 ## 🚀 Why It Matters
 
-Traditional systems rely on scraping and guessing. SPID uses resolution:
-
-```
-spid://acme/widget123
-```
-
-Instantly resolves a structured, human-approved Smart Packet.
-
----
+SPID replaces guesswork and scraping with resolution. For example:
+```spid://acme/widget123``` → instantly retrieves the structured packet.
 
 ## 📦 Key Components
 
-- **Smart Packet Format** — Self-contained structured answers
-- **SPID URIs** — Globally unique identifiers
-- **SPID Directory** — Central resolution + metadata lookup
+- **Smart Packet Format** — Self-contained, structured answers
+- **SPID URIs** — Globally unique addresses
+- **SPID Directory** — Central resolution service
 - **PulseIDs** — Async inboxes for agents and people
-
----
 
 ## 💬 Get Involved
 
-Have ideas or questions?  
-👉 [hello@voicemate.id](mailto:hello@voicemate.id)  
-🌐 [spid.directory](https://spid.directory)
-
-Let’s build the AI Web together.
+Email us at [hello@voicemate.id](mailto:hello@voicemate.id) or visit [spid.directory](https://spid.directory)
