@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
+import GitHubBadge from '../components/GitHubBadge';
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
         <div className={styles.container}>
           <h1 className={styles.title}>SPID Protocol</h1>
           <p className={styles.tagline}>Smart Packets. Structured Answers. Voice-Ready.</p>
+          <p className={styles.tagline}>Smart Packets. Structured Answers. Voice-Ready.</p>
+          <GitHubBadge />
+
         </div>
       </header>
 
