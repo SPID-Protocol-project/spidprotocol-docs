@@ -56,35 +56,23 @@ module.exports = {
         },
         {
           type: 'html',
-      position: 'right',
-      value: `
-        <div style="display: flex; align-items: center; gap: 6px;">
-          <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs" target="_blank">
-            <img src="https://img.shields.io/github/v/release/SPID-Protocol-project/spidprotocol-docs?label=version&color=brightgreen" />
-          </a>
-          <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/stargazers" target="_blank">
-            <img src="https://img.shields.io/github/stars/SPID-Protocol-project/spidprotocol-docs?style=social" />
-          </a>
-          <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/network/members" target="_blank">
-            <img src="https://img.shields.io/github/forks/SPID-Protocol-project/spidprotocol-docs?style=social" />
-          </a>
-        </div>
-      `,
+          position: 'right',
+          value: `
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs" target="_blank">
+                <img src="https://img.shields.io/github/v/release/SPID-Protocol-project/spidprotocol-docs?label=version&color=brightgreen" />
+              </a>
+              <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/stargazers" target="_blank">
+                <img src="https://img.shields.io/github/stars/SPID-Protocol-project/spidprotocol-docs?style=social" />
+              </a>
+              <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/network/members" target="_blank">
+                <img src="https://img.shields.io/github/forks/SPID-Protocol-project/spidprotocol-docs?style=social" />
+              </a>
+            </div>
+          `,
+        },
+      ],
     },
-  ],
-},
-      style: 'dark',
-    },
-
-    metadata: [
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'SPID Protocol' },
-      { name: 'twitter:description', content: 'Smart Packets. Structured Answers. Voice-Ready.' },
-      { name: 'twitter:image', content: '/img/SPID-social-card.png' },
-      { property: 'og:image', content: '/img/SPID-social-card.png' },
-      { property: 'og:title', content: 'SPID Protocol' },
-      { property: 'og:description', content: 'Smart Packets. Structured Answers. Voice-Ready.' },
-    ],
 
     colorMode: {
       defaultMode: 'dark',
@@ -103,5 +91,15 @@ module.exports = {
         autoCollapseCategories: true,
       },
     },
+
+    metadata: [
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'SPID Protocol' },
+      { name: 'twitter:description', content: 'Smart Packets. Structured Answers. Voice-Ready.' },
+      { name: 'twitter:image', content: '/img/SPID-social-card.png' },
+      { property: 'og:image', content: '/img/SPID-social-card.png' },
+      { property: 'og:title', content: 'SPID Protocol' },
+      { property: 'og:description', content: 'Smart Packets. Structured Answers. Voice-Ready.' },
+    ],
   },
 };
