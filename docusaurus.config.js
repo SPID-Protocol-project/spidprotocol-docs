@@ -16,13 +16,15 @@ module.exports = {
   favicon: 'img/spid-favicon.ico',
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh'],
-    localeConfigs: {
-      en: { label: 'English' },
-      zh: { label: '中文' },
-    },
+  defaultLocale: 'en',
+  locales: ['en', 'zh', 'fr'],
+  localeConfigs: {
+    en: { label: 'English' },
+    zh: { label: '中文' },
+    fr: { label: 'Français' },
   },
+},
+
 
   presets: [
     [
