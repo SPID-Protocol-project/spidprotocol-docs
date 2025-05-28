@@ -1,41 +1,54 @@
-# Website
+# SPID Protocol Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<img src="https://raw.githubusercontent.com/SPID-Protocol-project/spidprotocol-docs/main/static/img/spid_icon_dark.png" alt="SPID Protocol Logo" width="180" />
 
-### Installation
+**The Smart Packet Identity Layer (SPID)** is an open protocol that powers AI-native, voice-ready communication through structured metadata and universal identifiers. This repository contains the official documentation for SPID and its core components.
 
-```
-$ yarn
-```
+---
 
-### Local Development
+## 🚀 What is the SPID Protocol?
 
-```
-$ yarn start
-```
+The SPID Protocol defines a new standard for async, AI-mediated communication using **Smart Packets** — rich, structured messages containing:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- A short voice message
+- A full transcript
+- Inferred user intent
+- Actionable CTA buttons
+- Verified identity and metadata
 
-### Build
+SPID is the identity and resolution layer that links each packet to its origin, purpose, and destination. Think of it as **DNS + Schema.org + Email headers for the AI web** — enabling machines to route, respond, and retrieve context-aware messages without noise or ambiguity.
 
-```
-$ yarn build
-```
+---
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 🧠 Why It Matters
 
-### Deployment
+Traditional communication (email, calls, SMS) is outdated for an AI-driven world. Smart Packets and SPID enable:
 
-Using SSH:
+- ✅ **Voice-first communication** that’s human-friendly and AI-optimized
+- 🧩 **Structured data** that powers LLM routing and reasoning
+- 🕸️ **Linkable metadata** for seamless discovery and retrieval
+- 🔐 **Verified identity and intent**, protecting against spam and impersonation
+- 📦 **Portable messages**, ready to be shared, archived, or embedded anywhere
 
-```
-$ USE_SSH=true yarn deploy
-```
+---
 
-Not using SSH:
+## 📚 Documentation Contents
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+This repository is built with [Docusaurus](https://docusaurus.io) and contains:
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- `docs/` — Core specs, guides, and implementation details
+- `static/` — SPID logo assets and shared resources
+- `docusaurus.config.js` — Site configuration and navbar settings
+
+---
+
+## 📦 Get Started
+
+To contribute or run locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Start local dev server
+npm run start
