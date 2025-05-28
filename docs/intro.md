@@ -1,3 +1,9 @@
+---
+id: intro
+title: Introduction
+slug: /intro
+---
+
 # SPID Protocol
 
 Smart Packets. Structured Answers. Voice-Ready.
