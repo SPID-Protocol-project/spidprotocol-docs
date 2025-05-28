@@ -50,7 +50,7 @@ module.exports = {
     value: `
       <div style="display: flex; align-items: center; gap: 6px;">
         <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs" target="_blank" title="GitHub Repo">
-          <img alt="version" src="https://github.com/SPID-Protocol-project/spidprotocol-docs?label=SPID Protocol Project&color=red" />
+          <img alt="version" src="https://github.com/SPID-Protocol-project/spidprotocol-docs?label=SPID-Protocol-Project&color=red" />
         </a>
         <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/stargazers" target="_blank" title="Stars">
           <img alt="stars" src="https://img.shields.io/github/stars/SPID-Protocol-project/spidprotocol-docs?style=social" />
