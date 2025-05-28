@@ -15,6 +15,15 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/spid-favicon.ico',
 
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: { label: 'English' },
+      zh: { label: '中文' },
+    },
+  },
+
   presets: [
     [
       '@docusaurus/preset-classic',
