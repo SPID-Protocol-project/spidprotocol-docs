@@ -32,40 +32,37 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'SPID Protocol',
-      logo: {
-        alt: 'SPID Protocol Logo',
-        src: 'img/spid_icon_dark.png',
-      },
-      items: [
-  {
-    type: 'doc',
-    docId: 'intro',
-    position: 'left',
-    label: 'Docs',
+  title: 'SPID Protocol',
+  logo: {
+    alt: 'SPID Protocol Logo',
+    src: 'img/spid_icon_dark.png',
   },
-  {
-    type: 'html',
-    position: 'right',
-    value: `
-      <div style="display: flex; align-items: center; gap: 6px;">
-        <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs" target="_blank" title="GitHub Repo">
-          <img alt="version" src="https://github.com/SPID-Protocol-project/spidprotocol-docs?label=SPID Protocol Project&color=red" />
-        </a>
-        <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/stargazers" target="_blank" title="Stars">
-          <img alt="stars" src="https://img.shields.io/github/stars/SPID-Protocol-project/spidprotocol-docs?style=social" />
-        </a>
-        <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/network/members" target="_blank" title="Forks">
-          <img alt="forks" src="https://img.shields.io/github/forks/SPID-Protocol-project/spidprotocol-docs?style=social" />
-        </a>
-      </div>
-    `,
-  }, // ← this comma was missing!
-  {
-    type: 'search',
-    position: 'right',
-  },
-],
+  items: [
+    {
+      type: 'localeDropdown',
+      position: 'right',
+    },
+    {
+      type: 'search',
+      position: 'right',
+    },
+    {
+      type: 'html',
+      position: 'right',
+      value: `
+        <div style="display: flex; align-items: center; gap: 6px;">
+          <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs" title="GitHub Repo">
+            <img src="https://img.shields.io/github/v/release/SPID-Protocol-project/spidprotocol-docs?label=v0.0.1" />
+          </a>
+          <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/stargazers" title="Stars">
+            <img src="https://img.shields.io/github/stars/SPID-Protocol-project/spidprotocol-docs?style=social" />
+          </a>
+        </div>
+      `,
+    },
+  ],
+}
+
 
 
       style: 'dark',
