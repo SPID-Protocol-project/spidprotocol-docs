@@ -12,7 +12,7 @@ module.exports = {
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/spid_icon.ico',
+  favicon: 'img/spid-icon.ico',
 
   presets: [
     [
