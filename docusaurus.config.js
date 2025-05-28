@@ -17,31 +17,37 @@ module.exports = {
 
   i18n: {
   defaultLocale: 'en',
-  locales: ['en', 'zh', 'fr'],
+  locales: ['en', 'fr', 'zh'],
   localeConfigs: {
     en: { label: 'English' },
-    zh: { label: '中文' },
-    fr: { label: 'Français' },
+    fr: {
+      label: 'Français',
+      path: 'fr',
+    },
+    zh: {
+      label: '中文',
+      path: 'zh',
+    },
   },
 },
-
-
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          path: 'docs',
-          routeBasePath: 'docs',
-          sidebarPath: require.resolve('./sidebars.js'),
-        },
-        blog: false,
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+presets: [
+  [
+    '@docusaurus/preset-classic',
+    {
+      docs: {
+        path: 'docs',
+        routeBasePath: 'docs',
+        sidebarPath: require.resolve('./sidebars.js'),
+        // 👇 This enables fallback behavior
+        editLocalizedFiles: true,
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
       },
-    ],
+      ...
+    },
   ],
+],
+
 
   themeConfig: {
     navbar: {
