@@ -17,19 +17,20 @@ module.exports = {
 
   i18n: {
   defaultLocale: 'en',
-  locales: ['en', 'zh', 'fr'],
+  locales: ['en', 'fr', 'zh'],
   localeConfigs: {
     en: {
       label: 'English',
     },
-    zh: {
-      label: '中文',
-    },
     fr: {
       label: 'Français',
     },
+    zh: {
+      label: '中文',
+    },
   },
 },
+
 
 presets: [
   [
