@@ -28,14 +28,14 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col col--6">
-                <h2>🔍 What is SPID?</h2>
+                <h2>What is SPID?</h2>
                 <p>
                   SPID is a resolution and retrieval protocol for AI agents, apps, and users to access structured,
                   voice-ready content units called Smart Packets — complete with transcripts, metadata, intents, and CTAs.
                 </p>
               </div>
               <div className="col col--6">
-                <h2>🚀 Why It Matters</h2>
+                <h2>Why It Matters</h2>
                 <p>
                   SPID replaces guesswork and scraping with resolution. For example:
                   <br />
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
             <div className="row" style={{ marginTop: '2rem' }}>
               <div className="col col--12">
-                <h2>📦 Key Components</h2>
+                <h2>Key Components</h2>
                 <ul>
                   <li><strong>Smart Packet Format</strong> — Self-contained, structured answers</li>
                   <li><strong>SPID URIs</strong> — Globally unique addresses</li>

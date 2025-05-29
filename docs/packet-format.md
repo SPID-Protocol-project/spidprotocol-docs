@@ -5,7 +5,7 @@ description: Learn how to structure a Smart Packet using the SPID Protocol schem
 sidebar_position: 3
 ---
 
-# 📦 Smart Packet Format
+# Smart Packet Format
 
 A **Smart Packet** is the core content unit of the SPID Protocol — a portable, structured answer designed to be understood by both humans and AI assistants.
 
@@ -13,7 +13,7 @@ Each packet contains a mix of audio, text, metadata, and action logic — and fo
 
 ---
 
-## 🧱 Required Fields
+## Required Fields
 
 ```json
 {
@@ -48,7 +48,7 @@ object
 Metadata (author, tags, timestamps, language, etc.)
 
 
-🎯 CTA Button Schema
+CTA Button Schema
 CTAs guide users to take the next step. Each CTA has a type, label, and action.
 {
   "type": "link",
@@ -74,7 +74,7 @@ Open mail client with preset email
 
 You can include up to three CTA objects in a Smart Packet.
 
-🏷️ Metadata Fields (meta)
+Metadata Fields (meta)
 The meta object helps systems classify and filter packets.
 "meta": {
   "author": "Jane Doe",
@@ -104,7 +104,7 @@ string
 Optional expiry date
 
 
-🧪 Best Practices
+Best Practices
 Keep voice recordings under 30 seconds.
 
 
@@ -118,7 +118,7 @@ Limit CTAs to what makes sense in context — fewer buttons = more clarity.
 
 
 
-✅ Validation
+Validation
 You can validate your Smart Packets using the upcoming SPID Validator CLI or API. (Coming soon)
 
 Smart Packets are the new building blocks of human + AI interaction.

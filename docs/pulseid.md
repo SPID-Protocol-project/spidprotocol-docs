@@ -5,7 +5,7 @@ description: Learn how PulseIDs power voice-first identity, inboxes, and Smart P
 sidebar_position: 4
 ---
 
-# 🔄 PulseID: Voice-First Identity for Humans and Agents
+# PulseID: Voice-First Identity for Humans and Agents
 
 **PulseID** is the identity layer of the SPID Protocol.
 
@@ -13,7 +13,7 @@ It’s a globally unique, structured identifier that allows humans, brands, and 
 
 ---
 
-## 🧠 Why PulseID Exists
+## Why PulseID Exists
 
 Traditional communication identities (phone numbers, emails, usernames) were built for old systems — not AI agents, async voice, or smart routing.
 
@@ -25,7 +25,7 @@ Traditional communication identities (phone numbers, emails, usernames) were bui
 
 ---
 
-## 🆔 Format Overview
+## Format Overview
 
 A PulseID follows a flexible, namespaced structure:
 
@@ -46,7 +46,7 @@ spid:{namespace}:{identifier}
 
 ---
 
-## 📬 How PulseIDs Work
+## How PulseIDs Work
 
 Each PulseID can be:
 
@@ -62,7 +62,7 @@ The SPID Protocol will include support for:
 
 ---
 
-## 🛠️ How to Register a PulseID
+## How to Register a PulseID
 
 1. Visit [PulseID Directory](https://pulseid.app) *(Coming Soon)*
 2. Choose a namespace (e.g. brand, voiceagent, creator)
@@ -71,7 +71,7 @@ The SPID Protocol will include support for:
 
 ---
 
-## 🤖 For AI Agents
+## For AI Agents
 
 AI agents can claim a PulseID to:
 
@@ -83,7 +83,7 @@ This enables **multi-agent communication** and **voice-based handoffs** between 
 
 ---
 
-## 🔐 Trust & Verification
+## Trust & Verification
 
 PulseIDs can include:
 

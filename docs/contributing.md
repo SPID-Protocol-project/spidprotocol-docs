@@ -5,7 +5,7 @@ description: Learn how to contribute to the SPID Protocol project — from impro
 sidebar_position: 7
 ---
 
-# 🤝 Contributing to the SPID Protocol
+# Contributing to the SPID Protocol
 
 The SPID Protocol is an open standard designed for a new, voice-native, AI-aware internet — and we can’t build it alone.
 
@@ -13,9 +13,9 @@ Whether you're a developer, designer, business owner, content creator, or just c
 
 ---
 
-## 🛠️ Ways You Can Contribute
+## Ways You Can Contribute
 
-### 🧑‍💻 1. Improve the Protocol or Documentation
+### 1. Improve the Protocol or Documentation
 - Suggest edits, additions, or clarifications to the spec
 - Help document real-world use cases
 - Submit issues, feedback, or pull requests on GitHub
@@ -24,7 +24,7 @@ Whether you're a developer, designer, business owner, content creator, or just c
 
 ---
 
-### 🧪 2. Build With SPID
+### 2. Build With SPID
 
 - Create tools, templates, or viewers for Smart Packets
 - Build open-source resolvers or inbox tools
@@ -34,7 +34,7 @@ Tag your project with `spid-protocol` and link to [spidprotocol.org](https://spi
 
 ---
 
-### 🧠 3. Share Your Use Case
+### 3. Share Your Use Case
 
 Have a Smart Packet use case in healthcare, coaching, education, or async sales? We'd love to highlight it.
 
@@ -44,7 +44,7 @@ Have a Smart Packet use case in healthcare, coaching, education, or async sales?
 
 ---
 
-### 🌍 4. Join Community & Governance (Coming Soon)
+### 4. Join Community & Governance (Coming Soon)
 
 We’re launching:
 - A working group for protocol evolution
@@ -55,7 +55,7 @@ Join the waitlist or drop your email at [spidprotocol.org](https://spidprotocol.
 
 ---
 
-## ✅ Contribution Guidelines
+## Contribution Guidelines
 
 We welcome all contributors who follow our values:
 - Openness and interoperability
@@ -69,7 +69,7 @@ All contributions should:
 
 ---
 
-## 📂 Repo Structure Overview
+## Repo Structure Overview
 
 | Folder / File        | Purpose                                   |
 |----------------------|-------------------------------------------|
@@ -80,7 +80,7 @@ All contributions should:
 
 ---
 
-## 🧑‍🚀 New Here? Start With…
+## New Here? Start With…
 
 1. Read the [Introduction](./intro.md)
 2. Create a basic [Smart Packet](./packet-format.md)

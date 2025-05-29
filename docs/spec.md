@@ -5,7 +5,7 @@ description: The technical foundation of the SPID Protocol — including resolut
 sidebar_position: 5
 ---
 
-# ⚙️ SPID Protocol Specification
+# SPID Protocol Specification
 
 The **SPID Protocol** defines a structured, open standard for publishing, discovering, and interacting with **Smart Packets** via unique identifiers (PulseIDs).
 
@@ -13,7 +13,7 @@ This spec outlines how systems **store**, **resolve**, and **route** Smart Packe
 
 ---
 
-## 🔄 1. Resolution Overview
+## 1. Resolution Overview
 
 Smart Packets are resolved by querying a SPID-compatible resolver using a **PulseID** or **intent tag**.
 
@@ -48,7 +48,7 @@ Tag- or metadata-based fallback
 
 
 
-🧠 2. Identity Registry
+2. Identity Registry
 Each PulseID maps to a JSON record that includes:
 {
   "id": "spid:brand:acme",
@@ -73,7 +73,7 @@ Determine if the source is verified
 
 
 
-🔐 3. Trust & Security
+3. Trust & Security
 SPID-compliant systems SHOULD:
 Sign packets with a verifiable token or public key
 
@@ -92,7 +92,7 @@ Include HTTPS-based signatures for secure handoff between agents
 
 
 
-🧠 4. Intent Structure
+4. Intent Structure
 Intent strings follow a predictable path-based format:
 [category]/[action] or [topic]/[context]
 
@@ -108,7 +108,7 @@ product/demo
 
 AI systems can use these intents for retrieval, clustering, or handoff logic.
 
-🧪 5. Compliance Criteria
+5. Compliance Criteria
 To be SPID-compliant, a system must:
 Serve or retrieve packets matching the Smart Packet Format
 
@@ -126,21 +126,21 @@ Limit CTAs to defined schema types
 
 
 
-🗺️ Future Extensions
+Future Extensions
 Planned extensions include:
-🔄 Cross-agent packet routing
+Cross-agent packet routing
 
 
-📡 Distributed registry models (using DNS or DHT)
+Distributed registry models (using DNS or DHT)
 
 
-🎙️ Live voice-to-Smart Packet encoding
+Live voice-to-Smart Packet encoding
 
 
-🔑 Permissioned inboxes and async threads
+Permissioned inboxes and async threads
 
 
-🧩 Schema.org and JSON-LD integration for semantic indexing
+Schema.org and JSON-LD integration for semantic indexing
 
 
 

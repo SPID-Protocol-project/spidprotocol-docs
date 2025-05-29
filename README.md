@@ -1,24 +1,24 @@
-# 🛰️ SPID Protocol
+# SPID Protocol
 
 The **SPID Protocol** is an open standard for structured, voice-first communication — enabling AI assistants, agents, and humans to retrieve trusted, actionable content called **Smart Packets**.
 
 ---
 
-## 📦 What Is a Smart Packet?
+## What Is a Smart Packet?
 
 Smart Packets are AI-native, voice-ready answers that include:
 
-- 🔊 A short voice message (human or AI)
-- 📜 A full transcript
-- 🧠 Intent tags for routing and retrieval
-- 🎯 Up to 3 call-to-action (CTA) buttons
-- 🏷️ Metadata for search, security, and lifespan
+- A short voice message (human or AI)
+- A full transcript
+- Intent tags for routing and retrieval
+- Up to 3 call-to-action (CTA) buttons
+- Metadata for search, security, and lifespan
 
 They're like mini-landing pages for the AI web — structured, portable, and human-approved.
 
 ---
 
-## 🔄 What Is SPID?
+## What Is SPID?
 
 SPID stands for **Smart Packet Identity** — a unique, verifiable identity for people, brands, and bots to publish and receive Smart Packets.
 
@@ -30,7 +30,7 @@ spid:brand:nike-support
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 Start here:
 
@@ -43,22 +43,22 @@ Full documentation lives in the [`/docs`](./docs) folder and is powered by Docus
 
 ---
 
-## 🛠 Built With
+## Built With
 
-- 📄 [Docusaurus 2](https://docusaurus.io/)
-- 🧠 Markdown, YAML, and JSON
-- 🌐 Voice-first design principles
-- 🤖 AI-first retrieval logic
+- [Docusaurus 2](https://docusaurus.io/)
+- Markdown, YAML, and JSON
+- Voice-first design principles
+- AI-first retrieval logic
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! See [`/docs/contributing.md`](./docs/contributing.md) to learn how to help shape the protocol, spec, tools, or use cases.
 
 ---
 
-## 🌍 License
+## License
 
 This project is open source under the [MIT License](./LICENSE).
 

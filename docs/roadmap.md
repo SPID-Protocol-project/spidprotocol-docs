@@ -5,7 +5,7 @@ description: Explore the SPID Protocol's development roadmap — from core spec 
 sidebar_position: 8
 ---
 
-# 🗺️ SPID Protocol Roadmap
+# SPID Protocol Roadmap
 
 The SPID Protocol is more than just a spec — it’s the foundation for a new layer of communication: **voice-first, AI-native, human-approved content**.
 
@@ -13,7 +13,7 @@ This roadmap outlines what we’ve built, what’s in progress, and what’s com
 
 ---
 
-## ✅ Phase 1: Core Protocol & Spec (COMPLETE)
+## Phase 1: Core Protocol & Spec (COMPLETE)
 
 - [x] Smart Packet format finalized (`/docs/packet-format.md`)
 - [x] PulseID identity layer defined
@@ -23,7 +23,7 @@ This roadmap outlines what we’ve built, what’s in progress, and what’s com
 
 ---
 
-## 🚧 Phase 2: Developer Tools (IN PROGRESS)
+## Phase 2: Developer Tools (IN PROGRESS)
 
 - [ ] Open-source Smart Packet Viewer (web component)
 - [ ] SPID CLI tool for validating and generating packets
@@ -33,7 +33,7 @@ This roadmap outlines what we’ve built, what’s in progress, and what’s com
 
 ---
 
-## 🧠 Phase 3: Assistant + Platform Integration
+## Phase 3: Assistant + Platform Integration
 
 - [ ] Voice assistant starter templates (Node.js, Python, React)
 - [ ] Realtime API integration (e.g., OpenAI Assistants, Whisper, TTS)
@@ -42,7 +42,7 @@ This roadmap outlines what we’ve built, what’s in progress, and what’s com
 
 ---
 
-## 🧩 Phase 4: Ecosystem + Standardization
+## Phase 4: Ecosystem + Standardization
 
 - [ ] Schema registry and community-voted intent taxonomy
 - [ ] DNS + JSON-LD + semantic web indexing
@@ -51,7 +51,7 @@ This roadmap outlines what we’ve built, what’s in progress, and what’s com
 
 ---
 
-## 🌍 Phase 5: Governance & Trust Framework
+## Phase 5: Governance & Trust Framework
 
 - [ ] Open contributor council and working group
 - [ ] Verified PulseIDs and trust badges
@@ -60,7 +60,7 @@ This roadmap outlines what we’ve built, what’s in progress, and what’s com
 
 ---
 
-## 🧭 Vision: The SPID-Powered Future
+## Vision: The SPID-Powered Future
 
 Imagine a world where:
 
@@ -73,7 +73,7 @@ That’s what we’re building — and you’re early.
 
 ---
 
-## 📣 Get Involved
+## Get Involved
 
 - Join the conversation in GitHub Discussions
 - Share your ideas, tools, or use cases
