@@ -20,7 +20,7 @@ Whether you're a developer, designer, business owner, content creator, or just c
 - Help document real-world use cases
 - Submit issues, feedback, or pull requests on GitHub
 
-> Start with [`docs/spec.md`](./spec.md) or [`docs/packet-format.md`](./packet-format.md)
+> Start with [Spec](spec) or [Packet Format](packet-format)
 
 ---
 
@@ -38,7 +38,7 @@ Tag your project with `spid-protocol` and link to [spidprotocol.org](https://spi
 
 Have a Smart Packet use case in healthcare, coaching, education, or async sales? We'd love to highlight it.
 
-- Open a PR to [`docs/use-cases.md`](./use-cases.md)
+- Open a PR to [Use Cases](use-cases)
 - Add a post to the `/blog`
 - Submit a demo link or walkthrough to our team
 
