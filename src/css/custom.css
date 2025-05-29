@@ -92,4 +92,17 @@ a {
   margin: 0;
   padding: 0;
   color: #57606a;
+},
+/* Force body text to dark gray/black */
+.markdown {
+  color: #1a1a1a;
 }
+
+.markdown p,
+.markdown li,
+.markdown span,
+.markdown strong,
+.markdown em {
+  color: #1a1a1a;
+}
+
