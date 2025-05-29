@@ -14,7 +14,7 @@ The SPID Protocol (Smart Packet Identity Protocol) provides a universal way for 
 
 ---
 
-## 🌐 Why SPID Exists
+## Why SPID Exists
 
 The web is evolving. AI assistants are quickly becoming the default interface for information retrieval — replacing traditional web browsing and keyword-based SEO. But current content formats (HTML pages, blog posts, social feeds) are not structured or accessible enough for AI to deliver consistent, high-quality answers.
 
@@ -26,7 +26,7 @@ SPID solves this by introducing:
 
 ---
 
-## 💡 What Is a Smart Packet?
+## What Is a Smart Packet?
 
 A **Smart Packet** is a self-contained answer that includes:
 
@@ -40,25 +40,25 @@ Think of it like a modern fusion of a podcast snippet, a mini-FAQ, and a landing
 
 ---
 
-## 🧭 Use Cases
+## Use Cases
 
 SPID is designed for the next generation of information delivery:
 
-### 🔍 AI Search
+### AI Search
 Surface voice-ready Smart Packets in response to AI-generated queries, with CTA buttons built in.
 
-### 🤖 AI Assistants
+### AI Assistants
 Allow assistants (like ChatGPT, Siri, or your brand’s AI) to retrieve and deliver structured, pre-approved answers.
 
-### 💬 Async Voice Messaging
+### Async Voice Messaging
 Enable humans or bots to send context-aware Smart Packets instead of raw audio, creating actionable, archivable voice threads.
 
-### 📣 Creators & Businesses
+### Creators & Businesses
 Publish structured packets that AI can find, trust, and share — without needing a website or app.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Head over to [Getting Started](./getting-started.md) to learn how to:
 
