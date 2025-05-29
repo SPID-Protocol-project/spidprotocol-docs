@@ -127,15 +127,55 @@ module.exports = {
       { property: 'og:title', content: 'SPID Protocol' },
       { property: 'og:description', content: 'Smart Packets. Structured Answers. Voice-Ready.' },
     ],
+
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Introduction',
+              to: '/docs/intro',
+            },
+            {
+              label: 'Specification',
+              to: '/docs/spec',
+            },
+            {
+              label: 'Use Cases',
+              to: '/docs/use-cases',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/SPID-Protocol-project/spidprotocol-docs',
+            },
+          ],
+        },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'License',
+              to: '/docs/legal/license',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} VoiceMate / ChatSites LLC.
+        <br />
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
+          <img alt="Creative Commons License" style="vertical-align:middle; height:22px;" 
+            src="https://licensebuttons.net/l/by/4.0/88x31.png" />
+          <span style="margin-left: 0.5rem; vertical-align:middle;">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </span>
+        </a>`,
+    },
   },
 };
-footer: {
-  style: 'dark',
-  links: [
-    // your existing links go here
-  ],
-  copyright: `Copyright © ${new Date().getFullYear()} VoiceMate / ChatSites LLC.`,
-  // Add this custom license HTML badge below as a new field
-  // (this part is not standard, but you can move it into a custom component later)
-  // If needed, this can be part of a page instead.
-},
