@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkspidprotocol_docs=self.webpackChunkspidprotocol_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/spidprotocol-docs/zh/blog","blogTitle":"Blog","authorsListPath":"/spidprotocol-docs/zh/blog/authors"}')}}]);
