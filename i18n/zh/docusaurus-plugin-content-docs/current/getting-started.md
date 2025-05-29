@@ -1,105 +1,103 @@
 ---
+
 id: getting-started
-title: Getting Started
-description: Step-by-step guide to creating your first Smart Packet and using the SPID Protocol.
-sidebar_position: 2
----
+title: 入门指南
+description: 分步指南，教你如何创建第一个 Smart Packet 并使用 SPID 协议。
+sidebar\_position: 2
+--------------------
 
-# Getting Started with SPID Protocol
+# 开始使用 SPID 协议
 
-Welcome! This guide will walk you through the essential steps to begin using the **SPID Protocol** and creating your first **Smart Packet**.
-
----
-
-## 📦 What You’ll Need
-
-Before you begin, make sure you have:
-
-- A GitHub account (to contribute or clone the spec)
-- Basic familiarity with JSON and web development
-- Optional: A voice assistant or web app you’d like to integrate with Smart Packets
+欢迎！本指南将带你完成使用 **SPID 协议** 并创建第一个 **Smart Packet** 的关键步骤。
 
 ---
 
-## 🛠️ Step 1: Create Your First Smart Packet
+## 你需要准备的内容
 
-A **Smart Packet** is a structured answer unit. Here’s a minimal example:
+在开始之前，请确保你具备以下条件：
+
+* 拥有 GitHub 账号（用于贡献或克隆协议文档）
+* 了解基本的 JSON 和网页开发知识
+* 可选：你希望集成 Smart Packets 的语音助手或 Web 应用
+
+---
+
+## 第一步：创建你的第一个 Smart Packet
+
+**Smart Packet** 是一个结构化的回答单元。以下是一个最简示例：
 
 ```json
 {
   "id": "spid:example:welcome",
   "voice": "https://cdn.example.com/audio/welcome.mp3",
-  "transcript": "Welcome to the SPID Protocol. Here’s how to get started.",
+  "transcript": "欢迎使用 SPID 协议。以下是入门步骤。",
   "intent": "welcome/getting-started",
   "cta": [
     {
       "type": "link",
-      "label": "View Docs",
+      "label": "查看文档",
       "url": "https://spidprotocol.org/docs"
     }
   ],
   "meta": {
     "author": "SPID Foundation",
     "created": "2025-05-28",
-    "language": "en"
+    "language": "zh"
   }
 }
+```
 
-You can create Smart Packets manually or generate them using tools we’ll provide soon (Pulse Studio, CLI tools, etc.).
+你可以手动创建 Smart Packets，或者使用我们即将发布的工具（Pulse Studio、CLI 工具等）自动生成。
 
-🆔 Step 2: Register a PulseID
-A PulseID is your voice-first identity — it lets others (humans or agents) send or receive Smart Packets from you.
-You can:
-Register a PulseID via PulseID Directory
+---
 
+## 第二步：注册一个 PulseID
 
-Associate it with your domain, organization, or persona
+PulseID 是你的语音优先身份 —— 它允许他人（人或代理）向你发送或接收 Smart Packets。
 
+你可以：
 
-Use it to resolve and route packets to your async inbox or voice assistant
+* 通过 PulseID 目录注册一个身份
+* 将其与你的域名、组织或个性化角色关联
+* 使用它将数据包路由到你的异步收件箱或语音助手
 
+示例：
 
-Example:
- spid:yourdomain:customer-support
- spid:creator:elena-podcast-intro
+```
+spid:yourdomain:customer-support
+spid:creator:elena-podcast-intro
+```
 
-🧭 Step 3: Integrate With Your Assistant or App
-Once you’ve created a Smart Packet, you can:
-Embed it in your website or mobile app
+---
 
+## 第三步：与助手或应用集成
 
-Share it via SMS, email, or QR code
+创建 Smart Packet 后，你可以：
 
+* 将其嵌入网站或移动应用中
+* 通过短信、电子邮件或二维码分享
+* 让你的 AI 助手（ChatGPT、Morty、VoiceMate 等）通过 SPID 解析它
 
-Allow your AI assistant (ChatGPT, Morty, VoiceMate, etc.) to retrieve it by SPID
+我们将很快提供可选的 NPM、Python 和 REST API 集成库。
 
+---
 
-Optional libraries and integrations will be available soon via NPM, Python, and REST APIs.
+## 第四步：加入社区
 
-🤝 Step 4: Join the Community
-Help us shape the future of async, AI-native voice communication:
-⭐ Star the GitHub Repo
+帮助我们共同塑造异步、AI 原生语音通信的未来：
 
+* Star GitHub 仓库
+* 提交问题或功能建议
+* 分享你的使用案例或实现方式
+* 在 spidprotocol.org 注册获取更新
 
-🛠️ Submit issues or feature requests
+---
 
+## 接下来要了解的内容
 
-📢 Share your use case or implementation
+* Smart Packet 格式：详细字段说明和支持的 CTA 类型
+* SPID 规范：关于解析、结构和索引的深度解析
+* PulseID：理解语音优先身份和路由机制
 
-
-📬 Sign up for updates at spidprotocol.org
-
-
-
-🔄 What’s Next?
-Smart Packet Format — Full breakdown of all fields and supported CTAs
-
-
-SPID Spec — Deep dive into resolution, structure, and indexing
-
-
-PulseID — Understanding voice-first identity and routing
-
-
-
-You’re not just creating content. You’re creating AI-native answers that can be discovered, trusted, and acted on — by people or machines.
+你现在不仅是在创建内容。
+你正在创建可被人类与机器发现、信任和执行的 AI 原生答案。

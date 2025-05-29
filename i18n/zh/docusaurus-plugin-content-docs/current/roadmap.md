@@ -1,86 +1,86 @@
 ---
+
 id: roadmap
 title: Roadmap
-description: Explore the SPID Protocol's development roadmap — from core spec to Smart Packet tooling, identity layers, and beyond.
-sidebar_position: 8
----
+description: 探索 SPID 协议的发展路线图 —— 从核心规范到 Smart Packet 工具、身份层等内容。
+sidebar\_position: 8
+--------------------
 
-# 🗺️ SPID Protocol Roadmap
+# SPID 协议路线图
 
-The SPID Protocol is more than just a spec — it’s the foundation for a new layer of communication: **voice-first, AI-native, human-approved content**.
+SPID 协议不仅仅是一个规范 —— 它是全新通信层的基础：**以语音为先、AI 原生、人类审核的内容**。
 
-This roadmap outlines what we’ve built, what’s in progress, and what’s coming next across the protocol, tooling, ecosystem, and governance.
-
----
-
-## ✅ Phase 1: Core Protocol & Spec (COMPLETE)
-
-- [x] Smart Packet format finalized (`/docs/packet-format.md`)
-- [x] PulseID identity layer defined
-- [x] Basic SPID resolution flow defined
-- [x] Public GitHub documentation and examples
-- [x] Hosted demo Smart Packets + public showcases
+本路线图概述了我们已完成的内容、正在进行的事项，以及协议、工具、生态系统和治理方面的未来发展方向。
 
 ---
 
-## 🚧 Phase 2: Developer Tools (IN PROGRESS)
+## 阶段 1：核心协议与规范（已完成）
 
-- [ ] Open-source Smart Packet Viewer (web component)
-- [ ] SPID CLI tool for validating and generating packets
-- [ ] Smart Packet Generator (web-based UI)
-- [ ] PulseID Registration Directory (public preview)
-- [ ] API for querying packets by intent, tags, or SPID
-
----
-
-## 🧠 Phase 3: Assistant + Platform Integration
-
-- [ ] Voice assistant starter templates (Node.js, Python, React)
-- [ ] Realtime API integration (e.g., OpenAI Assistants, Whisper, TTS)
-- [ ] Cross-agent routing via Smart Packet handoffs
-- [ ] Plugins for CRM, helpdesks, podcast apps, and SMS tools
+* [x] Smart Packet 格式已定稿（`/docs/packet-format.md`）
+* [x] PulseID 身份层已定义
+* [x] 基本的 SPID 解析流程已定义
+* [x] 公共 GitHub 文档与示例
+* [x] 托管的 Smart Packet 演示与公开展示
 
 ---
 
-## 🧩 Phase 4: Ecosystem + Standardization
+## 阶段 2：开发者工具（进行中）
 
-- [ ] Schema registry and community-voted intent taxonomy
-- [ ] DNS + JSON-LD + semantic web indexing
-- [ ] Partnerships with AI model providers (search, chat, agents)
-- [ ] Smart Packet SEO guidelines (GEO: Generative Engine Optimization)
-
----
-
-## 🌍 Phase 5: Governance & Trust Framework
-
-- [ ] Open contributor council and working group
-- [ ] Verified PulseIDs and trust badges
-- [ ] Optional packet signing and expiration standards
-- [ ] Public proposal system (like W3C or RFC model)
+* [ ] 开源 Smart Packet 查看器（Web 组件）
+* [ ] 用于验证和生成数据包的 SPID CLI 工具
+* [ ] 基于 Web 的 Smart Packet 生成器
+* [ ] PulseID 注册目录（公开预览）
+* [ ] 根据 intent、标签或 SPID 查询数据包的 API
 
 ---
 
-## 🧭 Vision: The SPID-Powered Future
+## 阶段 3：助手与平台集成
 
-Imagine a world where:
-
-- Every person and business has a **voice-first identity**.
-- Every AI assistant can **pull verified packets**, not just hallucinate answers.
-- Every voice message is **structured, archived, and actionable**.
-- Every platform is **interoperable**, using open formats instead of silos.
-
-That’s what we’re building — and you’re early.
+* [ ] 语音助手入门模板（Node.js、Python、React）
+* [ ] 实时 API 集成（例如 OpenAI Assistants、Whisper、TTS）
+* [ ] 通过 Smart Packet 进行跨代理路由
+* [ ] 用于 CRM、帮助台、播客应用和短信工具的插件
 
 ---
 
-## 📣 Get Involved
+## 阶段 4：生态系统与标准化
 
-- Join the conversation in GitHub Discussions
-- Share your ideas, tools, or use cases
-- Sign up for contributor updates at [spidprotocol.org](https://spidprotocol.org)
+* [ ] Schema 注册表和由社区投票的意图分类法
+* [ ] DNS + JSON-LD + 语义 Web 索引
+* [ ] 与 AI 模型提供商的合作（搜索、聊天、代理）
+* [ ] Smart Packet SEO 指南（GEO：生成式引擎优化）
 
 ---
 
-> The future of communication isn’t more noise — it’s structured clarity.  
-> Help us build it.
+## 阶段 5：治理与信任框架
 
+* [ ] 开放的贡献者委员会和工作组
+* [ ] 已验证的 PulseID 与信任徽章
+* [ ] 可选的数据包签名与过期标准
+* [ ] 公共提案系统（类似 W3C 或 RFC 模型）
+
+---
+
+## 愿景：由 SPID 驱动的未来
+
+设想一个这样的世界：
+
+* 每个人和企业都有一个**以语音为核心的身份标识**。
+* 每个 AI 助手都可以**提取已验证的数据包**，而不仅仅是生成幻觉式回答。
+* 每条语音消息都是**结构化的、可归档的、可操作的**。
+* 每个平台都是**互操作的**，使用开放格式而非孤岛系统。
+
+这正是我们正在构建的未来 —— 而你，正处于早期阶段。
+
+---
+
+## 参与方式
+
+* 在 GitHub Discussions 中参与讨论
+* 分享你的想法、工具或使用场景
+* 在 [spidprotocol.org](https://spidprotocol.org) 注册以获取贡献者更新
+
+---
+
+> 沟通的未来不在于制造更多噪音，而是追求结构化的清晰度。
+> 让我们共同构建这一未来。

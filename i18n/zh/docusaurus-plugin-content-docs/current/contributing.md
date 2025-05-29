@@ -1,93 +1,98 @@
 ---
+
 id: contributing
 title: Contributing
-description: Learn how to contribute to the SPID Protocol project — from improving the spec to building tools, sharing use cases, or joining governance.
-sidebar_position: 7
----
+description: 了解如何为 SPID 协议项目做出贡献，包括优化规范、构建工具、分享使用场景，或加入治理案例。
+sidebar\_position: 7
+--------------------
 
-# 🤝 Contributing to the SPID Protocol
+# SPID 协议贡献指南
 
-The SPID Protocol is an open standard designed for a new, voice-native, AI-aware internet — and we can’t build it alone.
+SPID 协议是一个面向新一代以语音为根基，支持 AI 的开放标准，我们需要大家一起创造。
 
-Whether you're a developer, designer, business owner, content creator, or just curious — there’s a place for you in this movement.
-
----
-
-## 🛠️ Ways You Can Contribute
-
-### 🧑‍💻 1. Improve the Protocol or Documentation
-- Suggest edits, additions, or clarifications to the spec
-- Help document real-world use cases
-- Submit issues, feedback, or pull requests on GitHub
-
-> Start with [Spec](spec) or [Packet Format](packet-format)
+无论你是开发者、设计师、企业主、内容创作者，或者是对这一运动感兴趣的人，都有你的位置。
 
 ---
 
-### 🧪 2. Build With SPID
+## 你可以如何贡献
 
-- Create tools, templates, or viewers for Smart Packets
-- Build open-source resolvers or inbox tools
-- Prototype Smart Packet integrations for your app or assistant
+### 1. 优化协议或文档
 
-Tag your project with `spid-protocol` and link to [spidprotocol.org](https://spidprotocol.org)
+* 对规范提出修改、补充或明确化建议
+* 帮助文档实际场景使用情况
+* 通过 GitHub 提交问题、意见或 PR
 
----
-
-### 🧠 3. Share Your Use Case
-
-Have a Smart Packet use case in healthcare, coaching, education, or async sales? We'd love to highlight it.
-
-- Open a PR to [Use Cases](use-cases)
-- Add a post to the `/blog`
-- Submit a demo link or walkthrough to our team
+> 从 [Spec](spec) 或 [Packet Format](packet-format) 开始
 
 ---
 
-### 🌍 4. Join Community & Governance (Coming Soon)
+### 2. 使用 SPID 进行构建
 
-We’re launching:
-- A working group for protocol evolution
-- Public PulseID registry + validator
-- Open calls and contributor Q&As
+* 创建 Smart Packet 的工具、模板或查看器
+* 构建开源解析器或接收工具
+* 在你的应用或助手中原型集成 Smart Packet
 
-Join the waitlist or drop your email at [spidprotocol.org](https://spidprotocol.org) to get notified.
-
----
-
-## ✅ Contribution Guidelines
-
-We welcome all contributors who follow our values:
-- Openness and interoperability
-- Human-first, AI-augmented communication
-- Respect for privacy, clarity, and trust
-
-All contributions should:
-- Be constructive and respectful
-- Use neutral, inclusive language
-- Follow the structure of existing files
+给你的项目标记 `spid-protocol`，并链接到 [spidprotocol.org](https://spidprotocol.org)
 
 ---
 
-## 📂 Repo Structure Overview
+### 3. 分享使用场景
 
-| Folder / File        | Purpose                                   |
-|----------------------|-------------------------------------------|
-| `/docs`              | Core protocol documentation               |
-| `/blog`              | Announcements, deep dives, and use cases |
-| `/public/img`        | Diagrams, logos, and illustrations        |
-| `/static/validator`  | Upcoming tools for packet validation      |
+你有医疗、教育、导师、静态销售等场景的 Smart Packet 使用案例？我们很想了解！
 
----
-
-## 🧑‍🚀 New Here? Start With…
-
-1. Read the [Introduction](./intro.md)
-2. Create a basic [Smart Packet](./packet-format.md)
-3. Try publishing one for yourself or your business
-4. Join the conversation on GitHub or Twitter
+* 开启 PR 到 [Use Cases](use-cases)
+* 在 `/blog` 中添加一篇文章
+* 提交演示链接或步骤视频
 
 ---
 
-> Together, we can make the AI-powered web more structured, ethical, and human-first — one Smart Packet at a time.
+### 4. 加入社区和治理（敬请期待）
 
+我们将启动：
+
+* 协议治理工作组
+* 公开的 PulseID 注册和校验器
+* 公开的提问与贡献者 Q\&A
+
+注册等待列或输入你的邮箱： [spidprotocol.org](https://spidprotocol.org)
+
+---
+
+## 贡献准则
+
+我们欢迎所有符合以下价值的贡献者：
+
+* 开放性与互操作性
+* 以人为根本，以 AI 为补充的沟通
+* 尊重隐私、清晰和信任
+
+所有贡献应：
+
+* 构建性强和尊重人
+* 使用严谨不分性别的语言
+* 遵循现有文件结构
+
+---
+
+## 项目结构概览
+
+| 文件夹 / 文件            | 作用           |
+| ------------------- | ------------ |
+| `/docs`             | 核心协议文档       |
+| `/blog`             | 公告、深度分析和使用场景 |
+| `/public/img`       | 图表、标志和描述图    |
+| `/static/validator` | 即将上线的数据包校验工具 |
+
+---
+
+## 刚刚到这儿？可以从...
+
+1. 阅读 [Introduction](./intro.md)
+2. 创建一个基础的 [Smart Packet](./packet-format.md)
+3. 尝试为你自己或企业发布一个
+4. 加入 GitHub 或 Twitter 的讨论
+
+---
+
+> 让 AI 控制的 Web 更有结构、更保持道德性、更依赖人性。
+> 从一个 Smart Packet 开始，让这些可能发生。

@@ -1,19 +1,20 @@
 ---
+
 id: packet-format
-title: Smart Packet Format
-description: Learn how to structure a Smart Packet using the SPID Protocol schema — including voice, transcript, intent, and CTAs.
-sidebar_position: 3
+title: 智能数据包格式
+description: 了解如何使用 SPID 协议的结构编写 Smart Packet，包括语音、文字稿、意图和 CTA。
+sidebar\_position: 3
+--------------------
+
+# 智能数据包格式
+
+**Smart Packet（智能数据包）** 是 SPID 协议的核心内容单元 —— 一种便携的、结构化的答案格式，旨在让人类和 AI 助手都能理解。
+
+每个数据包包含音频、文字、元数据和动作逻辑，并遵循可预测的 JSON 模式。
+
 ---
 
-# 📦 Smart Packet Format
-
-A **Smart Packet** is the core content unit of the SPID Protocol — a portable, structured answer designed to be understood by both humans and AI assistants.
-
-Each packet contains a mix of audio, text, metadata, and action logic — and follows a predictable JSON schema.
-
----
-
-## 🧱 Required Fields
+## 必填字段
 
 ```json
 {
@@ -24,58 +25,51 @@ Each packet contains a mix of audio, text, metadata, and action logic — and fo
   "cta": [ ... ],
   "meta": { ... }
 }
+```
 
-Field
-Type
-Description
-id
-string
-Unique SPID identifier (e.g. spid:yourdomain:faq123)
-voice
-string
-URL to a short audio file (MP3 or Ogg)
-transcript
-string
-Text version of the spoken message
-intent
-string
-Semantic intent tag (e.g. product/quote, support/contact)
-cta
-array
-Up to 3 Call-to-Action buttons
-meta
-object
-Metadata (author, tags, timestamps, language, etc.)
+| 字段         | 类型     | 描述                                       |
+| ---------- | ------ | ---------------------------------------- |
+| id         | string | 唯一 SPID 标识符（例如 spid\:yourdomain\:faq123） |
+| voice      | string | 指向简短音频文件的 URL（MP3 或 Ogg）                 |
+| transcript | string | 语音信息的文本版本                                |
+| intent     | string | 语义意图标签（例如 product/quote）                 |
+| cta        | array  | 最多包含 3 个 Call-to-Action 按钮               |
+| meta       | object | 元数据（作者、标签、时间戳、语言等）                       |
 
+---
 
-🎯 CTA Button Schema
-CTAs guide users to take the next step. Each CTA has a type, label, and action.
+## CTA 按钮结构
+
+CTA 引导用户采取下一步行动。每个 CTA 包含类型、标签和动作。
+
+```json
 {
   "type": "link",
-  "label": "Visit Website",
+  "label": "访问网站",
   "url": "https://example.com"
 }
+```
 
-Supported type values:
-Type
-Description
-link
-Open a URL in a browser tab
-call
-Initiate a phone call
-sms
-Preload an SMS message
-calendar
-Open a scheduling link
-form
-Direct to a lead capture form
-email
-Open mail client with preset email
+支持的 type 值：
 
-You can include up to three CTA objects in a Smart Packet.
+| 类型       | 描述        |
+| -------- | --------- |
+| link     | 在浏览器中打开链接 |
+| call     | 发起电话呼叫    |
+| sms      | 预设短信内容    |
+| calendar | 打开预约页面    |
+| form     | 跳转至表单页面   |
+| email    | 打开发邮件客户端  |
 
-🏷️ Metadata Fields (meta)
-The meta object helps systems classify and filter packets.
+你最多可以在一个 Smart Packet 中添加 3 个 CTA 对象。
+
+---
+
+## 元数据字段（meta）
+
+meta 对象有助于系统分类和筛选数据包。
+
+```json
 "meta": {
   "author": "Jane Doe",
   "created": "2025-05-28",
@@ -83,43 +77,30 @@ The meta object helps systems classify and filter packets.
   "tags": ["onboarding", "faq"],
   "expires": "2025-12-31"
 }
+```
 
-Field
-Type
-Description
-author
-string
-Creator name or org
-created
-string
-ISO timestamp
-language
-string
-Language code (e.g. en, es)
-tags
-array
-Optional search/filter tags
-expires
-string
-Optional expiry date
+| 字段       | 类型     | 描述            |
+| -------- | ------ | ------------- |
+| author   | string | 创建者姓名或机构      |
+| created  | string | ISO 格式时间戳     |
+| language | string | 语言代码（如 en、zh） |
+| tags     | array  | 可选标签用于搜索或筛选   |
+| expires  | string | 可选字段，表示过期时间   |
 
+---
 
-🧪 Best Practices
-Keep voice recordings under 30 seconds.
+## 最佳实践
 
+* 语音录音时长建议控制在 30 秒以内。
+* 确保 transcript 和 audio 内容完全一致。
+* 使用清晰、具体的 intent 标签（例如 insurance/quote）。
+* CTA 按钮应简明、有上下文 —— 按钮越少，越清晰。
 
-Ensure transcript and audio match exactly.
+---
 
+## 验证
 
-Use clear, specific intent labels (like insurance/quote or sales/demo).
+你可以使用即将推出的 SPID Validator CLI 或 API 来验证 Smart Packets。
 
-
-Limit CTAs to what makes sense in context — fewer buttons = more clarity.
-
-
-
-✅ Validation
-You can validate your Smart Packets using the upcoming SPID Validator CLI or API. (Coming soon)
-
-Smart Packets are the new building blocks of human + AI interaction.
- They’re voice-native, AI-readable, and action-ready.
+Smart Packet 是人与 AI 交互的新型构建单元。
+它们原生支持语音、可供 AI 阅读、并具备行动指令。

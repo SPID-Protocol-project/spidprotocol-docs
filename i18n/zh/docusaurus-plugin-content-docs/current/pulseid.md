@@ -1,98 +1,97 @@
 ---
+
 id: pulseid
-title: PulseID
-description: Learn how PulseIDs power voice-first identity, inboxes, and Smart Packet routing in the SPID Protocol.
-sidebar_position: 4
----
+title: PulseID（脉冲身份标识）
+description: 了解 PulseID 如何在 SPID 协议中驱动以语音为先的身份识别、收件箱与智能包路由。
+sidebar\_position: 4
+--------------------
 
-# 🔄 PulseID: Voice-First Identity for Humans and Agents
+# PulseID：为人类与智能体设计的语音优先身份
 
-**PulseID** is the identity layer of the SPID Protocol.
+**PulseID** 是 SPID 协议的身份层。
 
-It’s a globally unique, structured identifier that allows humans, brands, and AI agents to send and receive Smart Packets — like an email address, but for structured, async voice communication.
-
----
-
-## 🧠 Why PulseID Exists
-
-Traditional communication identities (phone numbers, emails, usernames) were built for old systems — not AI agents, async voice, or smart routing.
-
-**PulseID enables:**
-
-- 📬 **Voice inboxes** for people, businesses, and bots  
-- 🧭 **Smart Packet resolution** to the correct identity or role  
-- 🔐 **Trusted delivery** with auditability and metadata  
+它是一种全球唯一、结构化的标识符，让人类、品牌与 AI 智能体可以发送和接收智能包（Smart Packets）——就像电子邮件地址，但专为结构化、异步语音通信而设计。
 
 ---
 
-## 🆔 Format Overview
+## PulseID 的存在意义
 
-A PulseID follows a flexible, namespaced structure:
+传统的通信身份（电话号码、电子邮件、用户名）是为旧系统设计的——它们并不适合 AI 智能体、异步语音或智能路由。
 
+**PulseID 使以下成为可能：**
+
+* 为个人、企业和机器人提供语音收件箱
+* 将智能包精准解析到正确的身份或角色
+* 实现带有审计和元数据的可信投递
+
+---
+
+## 格式概览
+
+PulseID 遵循一个灵活的命名空间结构：
 
 ```
 spid:{namespace}:{identifier}
 ```
 
+### 示例：
 
-### Examples:
-
-| PulseID                         | Use Case                         |
-|---------------------------------|----------------------------------|
-| `spid:creator:elena-podcast`    | A podcaster’s async voice inbox  |
-| `spid:brand:nike-help`          | Nike’s customer support AI       |
-| `spid:voiceagent:ai-morty`      | A specialized AI sales assistant |
-| `spid:biz:acme-insurance-quote` | A business quoting endpoint      |
-
----
-
-## 📬 How PulseIDs Work
-
-Each PulseID can be:
-
-- Queried via the SPID Registry
-- Resolved to its associated Smart Packets
-- Routed to an inbox, assistant, or external endpoint
-
-The SPID Protocol will include support for:
-
-- JSON and DNS-based resolution
-- Optional token-authenticated inboxes
-- Expiry and delegation logic (e.g. handoff to agents)
+| PulseID                         | 用例            |
+| ------------------------------- | ------------- |
+| `spid:creator:elena-podcast`    | 播客创作者的异步语音收件箱 |
+| `spid:brand:nike-help`          | Nike 的客户支持 AI |
+| `spid:voiceagent:ai-morty`      | 专用的 AI 销售助理   |
+| `spid:biz:acme-insurance-quote` | 商业报价端点        |
 
 ---
 
-## 🛠️ How to Register a PulseID
+## PulseID 的工作方式
 
-1. Visit [PulseID Directory](https://pulseid.app) *(Coming Soon)*
-2. Choose a namespace (e.g. brand, voiceagent, creator)
-3. Claim and verify your identifier
-4. Link your Smart Packets, inbox URL, or assistant integration
+每个 PulseID 都可以：
 
----
+* 通过 SPID 注册表进行查询
+* 被解析为其关联的智能包
+* 路由到收件箱、助理或外部端点
 
-## 🤖 For AI Agents
+SPID 协议将支持：
 
-AI agents can claim a PulseID to:
-
-- Accept routed queries
-- Receive contextually matched Smart Packets
-- Respond with structured voice replies and updates
-
-This enables **multi-agent communication** and **voice-based handoffs** between bots.
+* 基于 JSON 和 DNS 的解析
+* 可选的令牌认证收件箱
+* 过期与委派逻辑（如交接给代理）
 
 ---
 
-## 🔐 Trust & Verification
+## 如何注册一个 PulseID
 
-PulseIDs can include:
-
-- Metadata (organization, public key, description)
-- Verified badges for well-known entities
-- Audit trail of published and updated packets
-
-This makes voice-first messaging more **trusted, traceable, and intelligent**.
+1. 访问 [PulseID Directory](https://pulseid.app) *(即将上线)*
+2. 选择命名空间（如 brand、voiceagent、creator）
+3. 认领并验证您的标识符
+4. 关联您的智能包、收件箱 URL 或助理集成
 
 ---
 
-> PulseID is your voice identity in an AI-powered world — one that works for humans, agents, and everything in between.
+## 面向 AI 智能体
+
+AI 智能体可以认领一个 PulseID 以：
+
+* 接收被路由的查询
+* 接收与上下文匹配的智能包
+* 使用结构化语音回复与更新
+
+这支持智能体之间的语音通信与异步交接。
+
+---
+
+## 信任与验证
+
+PulseID 可包含：
+
+* 元数据（组织信息、公钥、描述）
+* 已验证徽章（用于知名实体）
+* 已发布与更新包的审计记录
+
+这使语音优先通信更加可信、可追踪、且智能化。
+
+---
+
+> PulseID 是您在 AI 世界中的语音身份——既为人类服务，也为智能体与其之间的沟通服务。
