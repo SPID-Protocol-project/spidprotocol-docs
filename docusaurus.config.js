@@ -25,6 +25,10 @@ module.exports = {
     },
   },
 
+  stylesheets: [
+    'https://cdn.jsdelivr.net/npm/@docsearch/css@3',
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -87,6 +91,13 @@ module.exports = {
           `,
         },
       ],
+    },
+
+    algolia: {
+      appId: '6SO3NK58E1',
+      apiKey: '28b9141bf7ced7e91430110f1ba9896e',
+      indexName: 'spid-protocol-projectio',
+      insights: true,
     },
 
     colorMode: {
