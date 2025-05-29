@@ -30,7 +30,10 @@ Traditional communication identities (phone numbers, emails, usernames) were bui
 A PulseID follows a flexible, namespaced structure:
 
 
+```
 spid:{namespace}:{identifier}
+```
+
 
 ### Examples:
 
