@@ -323,3 +323,6 @@
     "description": "The title of the tag list page"
   }
 }
+{
+  "sidebar.category.spid-protocol": "SPID 协议"
+}

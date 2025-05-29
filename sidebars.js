@@ -1,13 +1,14 @@
-// @ts-check
+// sidebars.js
 
-/**
- * @type {import('@docusaurus/plugin-content-docs').SidebarsConfig}
- */
 const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'SPID Protocol',
+      label: {
+        type: 'localized',
+        id: 'sidebar.category.spid-protocol', // You'll define this translation
+        default: 'SPID Protocol',
+      },
       collapsed: false,
       items: [
         'intro',
