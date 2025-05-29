@@ -10,7 +10,6 @@ module.exports = {
   organizationName: 'SPID-Protocol-project',
   projectName: 'spidprotocol-docs',
   deploymentBranch: 'gh-pages',
-  gitRemoteUrl: 'https://github.com/SPID-Protocol-project/spidprotocol-docs.git',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
