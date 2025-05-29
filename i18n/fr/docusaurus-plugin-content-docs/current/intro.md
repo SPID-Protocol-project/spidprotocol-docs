@@ -60,7 +60,7 @@ Publish structured packets that AI can find, trust, and share — without needin
 
 ## 🚀 Getting Started
 
-Head over to [Getting Started](./getting-started.md) to learn how to:
+Head over to [Getting Started](getting-started) to learn how to:
 
 - Create your first Smart Packet
 - Register a PulseID
