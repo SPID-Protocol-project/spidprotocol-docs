@@ -1,10 +1,11 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Global Style Overrides for SPID Protocol Docs
+ * - Dark text, clean typography
+ * - Consistent design for credibility and clarity
+ * - Emoji-free, pro-ready
  */
 
-/* You can override the default Infima variables here. */
+/* 🌐 Theme Variables */
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -17,7 +18,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* 🌙 Dark Theme Adjustments */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -28,39 +29,66 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-/* White navbar text for dark background */
-.navbar {
-  background-color: #000; /* black bar */
-}
 
+/* 🧭 Navbar */
+.navbar {
+  background-color: #000;
+}
 .navbar__title,
 .navbar__item,
 .navbar__link {
-  color: #ffffff !important;  /* force white */
+  color: #ffffff !important;
 }
-
 .navbar__item:hover,
 .navbar__link:hover {
-  color: #dddddd !important;  /* slightly lighter on hover */
+  color: #dddddd !important;
 }
 
-
-
-.hero__title, h1, h2, h3 {
+/* 🏁 Hero + Headings */
+.hero__title,
+h1, h2, h3 {
   font-weight: 600;
+  color: #1a1a1a;
+}
+.hero__subtitle {
+  color: #666;
 }
 
-.hero__subtitle, p {
-  color: #ccc;
+/* 📖 Markdown Body */
+.markdown {
+  color: #1a1a1a;
+}
+.markdown p,
+.markdown li,
+.markdown span,
+.markdown strong,
+.markdown em {
+  color: #1a1a1a;
+}
+.markdown ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+.markdown p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
 }
 
+/* 🧱 Layout Padding */
 .container {
   padding: 2rem;
 }
 
+/* 🔗 Links */
 a {
-  color: #61dafb;
+  color: #2e8555;
+  text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
+
+/* 🛠 GitHub Badge */
 .github-badge {
   display: flex;
   align-items: center;
@@ -72,7 +100,6 @@ a {
   margin-bottom: 1.5rem;
   font-size: 0.875rem;
 }
-
 .github-link {
   display: flex;
   align-items: center;
@@ -80,11 +107,9 @@ a {
   color: #0969da;
   font-weight: 600;
 }
-
 .github-link svg {
   margin-right: 8px;
 }
-
 .github-meta {
   display: flex;
   list-style: none;
@@ -92,17 +117,4 @@ a {
   margin: 0;
   padding: 0;
   color: #57606a;
-},
-/* Force body text to dark gray/black */
-.markdown {
-  color: #1a1a1a;
 }
-
-.markdown p,
-.markdown li,
-.markdown span,
-.markdown strong,
-.markdown em {
-  color: #1a1a1a;
-}
-
