@@ -2,7 +2,6 @@
 id: intro
 title: Introduction
 description: Learn what the SPID Protocol is, why it matters, and how it powers the future of structured, voice-first communication.
-slug: /
 sidebar_position: 1
 ---
 
