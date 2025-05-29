@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
-import { useTranslation } from '@docusaurus/core';
+import { useTranslation } from '@docusaurus/theme-common';
 
 export default function Home() {
   const { translate } = useTranslation();
