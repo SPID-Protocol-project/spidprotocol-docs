@@ -1,19 +1,17 @@
 ---
 id: packet-format
-title: Smart Packet Format
-description: Learn how to structure a Smart Packet using the SPID Protocol schema — including voice, transcript, intent, and CTAs.
+title: Format d’un Smart Packet
+description: Apprenez à structurer un Smart Packet avec le schéma du SPID Protocol — y compris voix, transcription, intention et CTAs.
 sidebar_position: 3
 ---
 
-# 📦 Smart Packet Format
+# Format de Smart Packet
 
-A **Smart Packet** is the core content unit of the SPID Protocol — a portable, structured answer designed to be understood by both humans and AI assistants.
+Un **Smart Packet** est l’unité de contenu principale du SPID Protocol — une réponse structurée et portable, conçue pour être comprise à la fois par les humains et les assistants IA.
 
-Each packet contains a mix of audio, text, metadata, and action logic — and follows a predictable JSON schema.
+Chaque packet contient un mélange d’audio, de texte, de métadonnées et de logique d’action — et suit un schéma JSON prévisible.
 
----
-
-## 🧱 Required Fields
+## Champs Requis
 
 ```json
 {
@@ -24,102 +22,71 @@ Each packet contains a mix of audio, text, metadata, and action logic — and fo
   "cta": [ ... ],
   "meta": { ... }
 }
+```
 
-Field
-Type
-Description
-id
-string
-Unique SPID identifier (e.g. spid:yourdomain:faq123)
-voice
-string
-URL to a short audio file (MP3 or Ogg)
-transcript
-string
-Text version of the spoken message
-intent
-string
-Semantic intent tag (e.g. product/quote, support/contact)
-cta
-array
-Up to 3 Call-to-Action buttons
-meta
-object
-Metadata (author, tags, timestamps, language, etc.)
+| Champ      | Type   | Description                                            |
+| ---------- | ------ | ------------------------------------------------------ |
+| id         | string | Identifiant SPID unique (ex. spid\:yourdomain\:faq123) |
+| voice      | string | URL vers un fichier audio court (MP3 ou Ogg)           |
+| transcript | string | Version texte du message vocal                         |
+| intent     | string | Tag d’intention sémantique (ex. produit/devis)         |
+| cta        | array  | Jusqu’à 3 boutons d’appel à l’action                   |
+| meta       | object | Métadonnées (auteur, tags, dates, langue, etc.)        |
 
+## Schéma des CTA
 
-🎯 CTA Button Schema
-CTAs guide users to take the next step. Each CTA has a type, label, and action.
+Les CTA (Call-to-Action) guident les utilisateurs vers l’action suivante. Chaque CTA a un type, un libellé et une action.
+
+```json
 {
   "type": "link",
-  "label": "Visit Website",
+  "label": "Visiter le site",
   "url": "https://example.com"
 }
+```
 
-Supported type values:
-Type
-Description
-link
-Open a URL in a browser tab
-call
-Initiate a phone call
-sms
-Preload an SMS message
-calendar
-Open a scheduling link
-form
-Direct to a lead capture form
-email
-Open mail client with preset email
+| Type     | Description                                |
+| -------- | ------------------------------------------ |
+| link     | Ouvre une URL dans un onglet du navigateur |
+| call     | Lance un appel téléphonique                |
+| sms      | Préremplit un message SMS                  |
+| calendar | Ouvre un lien de prise de rendez-vous      |
+| form     | Redirige vers un formulaire de capture     |
+| email    | Ouvre le client mail avec un brouillon     |
 
-You can include up to three CTA objects in a Smart Packet.
+Vous pouvez inclure jusqu’à trois objets CTA dans un Smart Packet.
 
-🏷️ Metadata Fields (meta)
-The meta object helps systems classify and filter packets.
+## Champs de Métadonnées (meta)
+
+L’objet `meta` aide les systèmes à classer et filtrer les packets.
+
+```json
 "meta": {
   "author": "Jane Doe",
   "created": "2025-05-28",
-  "language": "en",
+  "language": "fr",
   "tags": ["onboarding", "faq"],
   "expires": "2025-12-31"
 }
+```
 
-Field
-Type
-Description
-author
-string
-Creator name or org
-created
-string
-ISO timestamp
-language
-string
-Language code (e.g. en, es)
-tags
-array
-Optional search/filter tags
-expires
-string
-Optional expiry date
+| Champ    | Type   | Description                             |
+| -------- | ------ | --------------------------------------- |
+| author   | string | Nom du créateur ou de l’organisation    |
+| created  | string | Timestamp ISO                           |
+| language | string | Code langue (ex. fr, en)                |
+| tags     | array  | Tags optionnels pour recherche/filtrage |
+| expires  | string | Date d’expiration facultative           |
 
+## Bonnes Pratiques
 
-🧪 Best Practices
-Keep voice recordings under 30 seconds.
+* Gardez les enregistrements audio en dessous de 30 secondes
+* Assurez-vous que la transcription et l’audio correspondent
+* Utilisez des tags d’intention clairs et spécifiques (ex. assurance/devis)
+* Limitez les CTA à ce qui est pertinent dans le contexte — moins de boutons = plus de clarté
 
+## Validation
 
-Ensure transcript and audio match exactly.
+Vous pourrez bientôt valider vos Smart Packets avec le SPID Validator CLI ou API.
 
-
-Use clear, specific intent labels (like insurance/quote or sales/demo).
-
-
-Limit CTAs to what makes sense in context — fewer buttons = more clarity.
-
-
-
-✅ Validation
-You can validate your Smart Packets using the upcoming SPID Validator CLI or API. (Coming soon)
-
-Smart Packets are the new building blocks of human + AI interaction.
- They’re voice-native, AI-readable, and action-ready.
+Les Smart Packets sont les nouveaux blocs de base de l’interaction entre humains et IA. Structurés, vocaux, lisibles par IA, et prêts à l’action.

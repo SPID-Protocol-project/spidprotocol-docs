@@ -1,105 +1,102 @@
 ---
+
 id: getting-started
-title: Getting Started
-description: Step-by-step guide to creating your first Smart Packet and using the SPID Protocol.
-sidebar_position: 2
----
+title: Premiers Pas
+description: Guide étape par étape pour créer votre premier Smart Packet et utiliser le SPID Protocol.
+sidebar\_position: 2
+--------------------
 
-# Getting Started with SPID Protocol
+# Premiers Pas avec le SPID Protocol
 
-Welcome! This guide will walk you through the essential steps to begin using the **SPID Protocol** and creating your first **Smart Packet**.
-
----
-
-## 📦 What You’ll Need
-
-Before you begin, make sure you have:
-
-- A GitHub account (to contribute or clone the spec)
-- Basic familiarity with JSON and web development
-- Optional: A voice assistant or web app you’d like to integrate with Smart Packets
+Bienvenue ! Ce guide vous accompagnera dans les étapes essentielles pour commencer à utiliser le **SPID Protocol** et créer votre premier **Smart Packet**.
 
 ---
 
-## 🛠️ Step 1: Create Your First Smart Packet
+## Ce Dont Vous Aurez Besoin
 
-A **Smart Packet** is a structured answer unit. Here’s a minimal example:
+Avant de commencer, assurez-vous d’avoir :
+
+* Un compte GitHub (pour contribuer ou cloner le dépôt)
+* Une compréhension de base du JSON et du développement web
+* Optionnel : un assistant vocal ou une application à intégrer avec les Smart Packets
+
+---
+
+## Étape 1 : Créer votre Premier Smart Packet
+
+Un **Smart Packet** est une unité de réponse structurée. Voici un exemple minimal :
 
 ```json
 {
   "id": "spid:example:welcome",
   "voice": "https://cdn.example.com/audio/welcome.mp3",
-  "transcript": "Welcome to the SPID Protocol. Here’s how to get started.",
+  "transcript": "Bienvenue dans le SPID Protocol. Voici comment commencer.",
   "intent": "welcome/getting-started",
   "cta": [
     {
       "type": "link",
-      "label": "View Docs",
+      "label": "Voir la documentation",
       "url": "https://spidprotocol.org/docs"
     }
   ],
   "meta": {
     "author": "SPID Foundation",
     "created": "2025-05-28",
-    "language": "en"
+    "language": "fr"
   }
 }
+```
 
-You can create Smart Packets manually or generate them using tools we’ll provide soon (Pulse Studio, CLI tools, etc.).
+Vous pouvez créer des Smart Packets manuellement ou les générer à l’aide des outils que nous proposerons bientôt (Pulse Studio, CLI, etc.).
 
-🆔 Step 2: Register a PulseID
-A PulseID is your voice-first identity — it lets others (humans or agents) send or receive Smart Packets from you.
-You can:
-Register a PulseID via PulseID Directory
+---
 
+## Étape 2 : Enregistrer un PulseID
 
-Associate it with your domain, organization, or persona
+Un **PulseID** est votre identité vocale asynchrone — il permet à d'autres personnes (ou agents) d’envoyer ou recevoir des Smart Packets de votre part.
 
+Vous pouvez :
 
-Use it to resolve and route packets to your async inbox or voice assistant
+* Enregistrer un PulseID via le répertoire PulseID
+* L’associer à votre domaine, organisation ou personnage
+* L’utiliser pour acheminer des paquets vers votre boîte vocale ou assistant
 
+Exemples :
 
-Example:
- spid:yourdomain:customer-support
- spid:creator:elena-podcast-intro
+* spid\:votredomaine\:support-client
+* spid\:createur\:intro-podcast-elena
 
-🧭 Step 3: Integrate With Your Assistant or App
-Once you’ve created a Smart Packet, you can:
-Embed it in your website or mobile app
+---
 
+## Étape 3 : Intégrer à votre Assistant ou Application
 
-Share it via SMS, email, or QR code
+Une fois votre Smart Packet créé, vous pouvez :
 
+* L’intégrer à votre site web ou application mobile
+* Le partager par SMS, e-mail ou QR code
+* Permettre à votre assistant IA (ChatGPT, Morty, VoiceMate, etc.) de le récupérer par SPID
 
-Allow your AI assistant (ChatGPT, Morty, VoiceMate, etc.) to retrieve it by SPID
+Des bibliothèques et intégrations optionnelles seront bientôt disponibles via NPM, Python et APIs REST.
 
+---
 
-Optional libraries and integrations will be available soon via NPM, Python, and REST APIs.
+## Étape 4 : Rejoindre la Communauté
 
-🤝 Step 4: Join the Community
-Help us shape the future of async, AI-native voice communication:
-⭐ Star the GitHub Repo
+Participez à la construction du futur de la communication vocale asynchrone :
 
+* Mettre en favori le dépôt GitHub
+* Soumettre des problèmes ou propositions d’amélioration
+* Partager vos cas d’usage ou intégrations
+* S’inscrire aux mises à jour sur [spidprotocol.org](https://spidprotocol.org)
 
-🛠️ Submit issues or feature requests
+---
 
+## Prochaine Étape
 
-📢 Share your use case or implementation
+* Format des Smart Packets — Détail complet des champs et CTA pris en charge
+* Spécification SPID — Approfondissement sur la résolution, la structure et l’indexation
+* PulseID — Comprendre l’identité vocale asynchrone et le routage
 
+---
 
-📬 Sign up for updates at spidprotocol.org
-
-
-
-🔄 What’s Next?
-Smart Packet Format — Full breakdown of all fields and supported CTAs
-
-
-SPID Spec — Deep dive into resolution, structure, and indexing
-
-
-PulseID — Understanding voice-first identity and routing
-
-
-
-You’re not just creating content. You’re creating AI-native answers that can be discovered, trusted, and acted on — by people or machines.
+> Vous ne créez pas simplement du contenu. Vous créez des réponses AI-natives, accessibles et actionnables — pour les humains ou les machines.

@@ -1,29 +1,34 @@
 ---
+
 id: spec
-title: SPID Protocol Specification
-description: The technical foundation of the SPID Protocol — including resolution, registry structure, and compliance requirements.
-sidebar_position: 5
+title: Spécification du Protocole SPID
+description: La base technique du protocole SPID — incluant la résolution, la structure du registre et les exigences de conformité.
+sidebar\_position: 5
+--------------------
+
+# Spécification du Protocole SPID
+
+Le **protocole SPID** définit une norme ouverte et structurée pour publier, découvrir et interagir avec des **Smart Packets** via des identifiants uniques (PulseIDs).
+
+Cette spécification décrit comment les systèmes **stockent**, **résolvent** et **acheminent** les Smart Packets en utilisant le système d'identité et de registre SPID.
+
 ---
 
-# ⚙️ SPID Protocol Specification
+## 1. Vue d'ensemble de la résolution
 
-The **SPID Protocol** defines a structured, open standard for publishing, discovering, and interacting with **Smart Packets** via unique identifiers (PulseIDs).
+Les Smart Packets sont résolus en interrogeant un résolveur compatible SPID à l'aide d'un **PulseID** ou d'une **étiquette d'intention**.
 
-This spec outlines how systems **store**, **resolve**, and **route** Smart Packets using the SPID identity and registry system.
+### Entrée :
 
----
-
-## 🔄 1. Resolution Overview
-
-Smart Packets are resolved by querying a SPID-compatible resolver using a **PulseID** or **intent tag**.
-
-### Input:
 ```json
 {
   "query": "spid:creator:elena-podcast"
 }
+```
 
-Output:
+### Sortie :
+
+```json
 {
   "packets": [
     {
@@ -36,20 +41,21 @@ Output:
     }
   ]
 }
+```
 
-The SPID Resolver MUST support:
-Exact ID resolution (e.g. spid:brand:xyz-support)
+Le résolveur SPID DOIT prendre en charge :
 
+* La résolution d'ID exacts (par exemple spid\:brand\:xyz-support)
+* Le filtrage basé sur l'intention (par exemple support/faq)
+* Le repli basé sur les étiquettes ou les métadonnées
 
-Intent-based filtering (e.g. support/faq)
+---
 
+## 2. Registre d'identité
 
-Tag- or metadata-based fallback
+Chaque PulseID correspond à un enregistrement JSON incluant :
 
-
-
-🧠 2. Identity Registry
-Each PulseID maps to a JSON record that includes:
+```json
 {
   "id": "spid:brand:acme",
   "displayName": "Acme Corp",
@@ -61,89 +67,68 @@ Each PulseID maps to a JSON record that includes:
     "tags": ["insurance", "mortgage", "quote"]
   }
 }
+```
 
-This allows systems to:
-Fetch all published Smart Packets for a given identity
+Cela permet aux systèmes de :
 
-
-Route new voice messages to inboxes or bots
-
-
-Determine if the source is verified
-
-
-
-🔐 3. Trust & Security
-SPID-compliant systems SHOULD:
-Sign packets with a verifiable token or public key
-
-
-Verify authorship before displaying packets to users
-
-
-Respect expiration metadata (expires field)
-
-
-Optional:
-Use DNS-based TXT records to validate ownership of spid:domain:* IDs
-
-
-Include HTTPS-based signatures for secure handoff between agents
-
-
-
-🧠 4. Intent Structure
-Intent strings follow a predictable path-based format:
-[category]/[action] or [topic]/[context]
-
-Examples:
-insurance/quote
-
-
-onboarding/welcome
-
-
-product/demo
-
-
-AI systems can use these intents for retrieval, clustering, or handoff logic.
-
-🧪 5. Compliance Criteria
-To be SPID-compliant, a system must:
-Serve or retrieve packets matching the Smart Packet Format
-
-
-Accept SPID PulseID queries via API or registry
-
-
-Respect routing logic based on intent and packet metadata
-
-
-Support voice + transcript pairing
-
-
-Limit CTAs to defined schema types
-
-
-
-🗺️ Future Extensions
-Planned extensions include:
-🔄 Cross-agent packet routing
-
-
-📡 Distributed registry models (using DNS or DHT)
-
-
-🎙️ Live voice-to-Smart Packet encoding
-
-
-🔑 Permissioned inboxes and async threads
-
-
-🧩 Schema.org and JSON-LD integration for semantic indexing
-
-
-
-The SPID Protocol turns knowledge into a retrievable, trusted, voice-first layer of the web — optimized for AI, but owned by people.
+* Récupérer tous les Smart Packets publiés pour une identité donnée
+* Acheminer de nouveaux messages vocaux vers des boîtes de réception ou des bots
+* Déterminer si la source est vérifiée
 
 ---
+
+## 3. Confiance et sécurité
+
+Les systèmes conformes au SPID DEVRAIENT :
+
+* Signer les packets avec un jeton vérifiable ou une clé publique
+* Vérifier l'autorité avant d'afficher les packets à l'utilisateur
+* Respecter les métadonnées d'expiration (champ `expires`)
+
+Optionnel :
+
+* Utiliser des enregistrements DNS TXT pour valider la propriété des IDs `spid:domain:*`
+* Inclure des signatures HTTPS pour les transferts sécurisés entre agents
+
+---
+
+## 4. Structure des intentions
+
+Les chaînes d'intention suivent un format prévisible de type chemin :
+`[catégorie]/[action]` ou `[sujet]/[contexte]`
+
+Exemples :
+
+* insurance/quote
+* onboarding/welcome
+* product/demo
+
+Les systèmes d'IA peuvent utiliser ces intentions pour la recherche, le regroupement ou la logique de transfert.
+
+---
+
+## 5. Critères de conformité
+
+Pour être conforme au SPID, un système doit :
+
+* Servir ou récupérer des packets conformes au format Smart Packet
+* Accepter les requêtes PulseID via une API ou un registre
+* Respecter la logique d'acheminement basée sur l'intention et les métadonnées
+* Prendre en charge les paires voix + transcription
+* Limiter les CTAs aux types définis dans le schéma
+
+---
+
+## Extensions futures
+
+Les extensions prévues incluent :
+
+* Transfert de packets entre agents
+* Modèles de registre distribué (utilisant DNS ou DHT)
+* Encodage en temps réel voix → Smart Packet
+* Boîtes de réception autorisées et fils asynchrones
+* Intégration Schema.org et JSON-LD pour l'indexation sémantique
+
+---
+
+Le protocole SPID transforme la connaissance en une couche vocale, fiable et accessible du Web — optimisée pour l'IA, mais au service des humains.

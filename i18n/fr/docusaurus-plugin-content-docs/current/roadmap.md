@@ -1,86 +1,68 @@
 ---
+
 id: roadmap
-title: Roadmap
-description: Explore the SPID Protocol's development roadmap — from core spec to Smart Packet tooling, identity layers, and beyond.
-sidebar_position: 8
----
+title: Feuille de Route
+sidebar\_position: 8
+--------------------
 
-# 🗺️ SPID Protocol Roadmap
+# Feuille de Route du Protocole SPID
 
-The SPID Protocol is more than just a spec — it’s the foundation for a new layer of communication: **voice-first, AI-native, human-approved content**.
+Le protocole SPID est plus qu’une simple spécification — c’est le socle d’un nouveau mode de communication : un contenu vocal en premier, natif pour l’IA et validé par l’humain.
 
-This roadmap outlines what we’ve built, what’s in progress, and what’s coming next across the protocol, tooling, ecosystem, and governance.
+Cette feuille de route présente ce que nous avons déjà construit, ce qui est en cours de développement, et ce qui arrive ensuite, couvrant la spécification, les outils, l’écosystème et la gouvernance.
 
----
+## Phase 1 : Protocole de base et spécification (TERMINÉ)
 
-## ✅ Phase 1: Core Protocol & Spec (COMPLETE)
+* [x] Format des Smart Packets finalisé (`/docs/packet-format.md`)
+* [x] Couche d’identité PulseID définie
+* [x] Flux de résolution SPID de base défini
+* [x] Documentation publique sur GitHub avec exemples
+* [x] Smart Packets de démonstration hébergés et accessibles au public
 
-- [x] Smart Packet format finalized (`/docs/packet-format.md`)
-- [x] PulseID identity layer defined
-- [x] Basic SPID resolution flow defined
-- [x] Public GitHub documentation and examples
-- [x] Hosted demo Smart Packets + public showcases
+## Phase 2 : Outils pour développeurs (EN COURS)
 
----
+* [ ] Visionneuse open-source de Smart Packets (composant web)
+* [ ] Outil en ligne de commande (CLI) SPID pour valider et générer des packets
+* [ ] Générateur de Smart Packets (interface web)
+* [ ] Annuaire d’enregistrement PulseID (aperçu public)
+* [ ] API de recherche par intention, tags ou SPID
 
-## 🚧 Phase 2: Developer Tools (IN PROGRESS)
+## Phase 3 : Intégration assistant et plateforme
 
-- [ ] Open-source Smart Packet Viewer (web component)
-- [ ] SPID CLI tool for validating and generating packets
-- [ ] Smart Packet Generator (web-based UI)
-- [ ] PulseID Registration Directory (public preview)
-- [ ] API for querying packets by intent, tags, or SPID
+* [ ] Modèles de démarrage pour assistants vocaux (Node.js, Python, React)
+* [ ] Intégration API temps réel (OpenAI Assistants, Whisper, TTS)
+* [ ] Routage inter-agent via transferts de Smart Packets
+* [ ] Plugins pour CRM, helpdesks, podcasts, outils SMS
 
----
+## Phase 4 : Écosystème et standardisation
 
-## 🧠 Phase 3: Assistant + Platform Integration
+* [ ] Registre de schémas et taxonomie d’intentions communautaire
+* [ ] Indexation via DNS, JSON-LD et web sémantique
+* [ ] Partenariats avec fournisseurs de modèles IA (recherche, chat, agents)
+* [ ] Directives SEO pour Smart Packets (GEO : optimisation pour moteurs IA)
 
-- [ ] Voice assistant starter templates (Node.js, Python, React)
-- [ ] Realtime API integration (e.g., OpenAI Assistants, Whisper, TTS)
-- [ ] Cross-agent routing via Smart Packet handoffs
-- [ ] Plugins for CRM, helpdesks, podcast apps, and SMS tools
+## Phase 5 : Gouvernance et cadre de confiance
 
----
+* [ ] Conseil ouvert de contributeurs et groupes de travail
+* [ ] PulseIDs vérifiés et badges de confiance
+* [ ] Normes facultatives pour la signature et l’expiration de packets
+* [ ] Système public de propositions (type W3C ou RFC)
 
-## 🧩 Phase 4: Ecosystem + Standardization
+## Vision : Un futur propulsé par SPID
 
-- [ ] Schema registry and community-voted intent taxonomy
-- [ ] DNS + JSON-LD + semantic web indexing
-- [ ] Partnerships with AI model providers (search, chat, agents)
-- [ ] Smart Packet SEO guidelines (GEO: Generative Engine Optimization)
+Imaginez un monde où :
 
----
+* Chaque personne et entreprise possède une **identité vocale**
+* Chaque assistant IA accède à des **packets vérifiés** plutôt que d’halluciner des réponses
+* Chaque message vocal est **structuré, archivé et actionnable**
+* Chaque plateforme est **interopérable**, grâce à des formats ouverts
 
-## 🌍 Phase 5: Governance & Trust Framework
+C’est ce que nous construisons — et vous êtes en avance sur votre temps.
 
-- [ ] Open contributor council and working group
-- [ ] Verified PulseIDs and trust badges
-- [ ] Optional packet signing and expiration standards
-- [ ] Public proposal system (like W3C or RFC model)
+## Participer
 
----
+* Rejoignez la discussion sur GitHub Discussions
+* Partagez vos idées, outils ou cas d’usage
+* Inscrivez-vous aux mises à jour sur [spidprotocol.org](https://spidprotocol.org)
 
-## 🧭 Vision: The SPID-Powered Future
-
-Imagine a world where:
-
-- Every person and business has a **voice-first identity**.
-- Every AI assistant can **pull verified packets**, not just hallucinate answers.
-- Every voice message is **structured, archived, and actionable**.
-- Every platform is **interoperable**, using open formats instead of silos.
-
-That’s what we’re building — and you’re early.
-
----
-
-## 📣 Get Involved
-
-- Join the conversation in GitHub Discussions
-- Share your ideas, tools, or use cases
-- Sign up for contributor updates at [spidprotocol.org](https://spidprotocol.org)
-
----
-
-> The future of communication isn’t more noise — it’s structured clarity.  
-> Help us build it.
-
+> Le futur de la communication, ce n’est pas plus de bruit — c’est plus de clarté structurée. Construisons-le ensemble.
