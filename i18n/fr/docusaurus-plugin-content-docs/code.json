@@ -1,0 +1,14 @@
+{
+  "homepage.title": "Protocole SPID",
+  "homepage.subtitle": "Smart Packets. Réponses Structurées. Prêtes pour la Voix.",
+  "homepage.getStarted": "Commencer",
+  "homepage.whatIs": "Qu'est-ce que SPID ?",
+  "homepage.whatIs.desc": "SPID est un protocole de résolution et de récupération pour les agents IA, les applications et les utilisateurs afin d'accéder à des unités de contenu structurées et prêtes pour la voix appelées Smart Packets — avec transcriptions, métadonnées, intentions et CTAs.",
+  "homepage.why": "Pourquoi c'est important",
+  "homepage.why.desc": "SPID remplace les suppositions et le scraping par de la résolution. Par exemple :",
+  "homepage.key": "Composants Clés",
+  "homepage.key.1": "Format de Smart Packet — Réponses structurées et autonomes",
+  "homepage.key.2": "URI SPID — Identifiants globalement uniques",
+  "homepage.key.3": "Annuaire SPID — Service central de résolution",
+  "homepage.key.4": "PulseIDs — Boîtes vocales asynchrones pour agents et humains"
+}

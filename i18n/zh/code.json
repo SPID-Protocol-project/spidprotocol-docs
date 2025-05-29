@@ -1,0 +1,14 @@
+{
+  "homepage.title": "SPID 协议",
+  "homepage.subtitle": "Smart Packets. 结构化答案. 语音就绪.",
+  "homepage.getStarted": "开始使用",
+  "homepage.whatIs": "什么是 SPID？",
+  "homepage.whatIs.desc": "SPID 是一个为 AI 代理、应用和用户提供结构化、语音就绪内容单元（称为 Smart Packet）的解析和检索协议，这些内容单元包含文本、元数据、意图和 CTA。",
+  "homepage.why": "为什么这很重要",
+  "homepage.why.desc": "SPID 通过解析替代了猜测和网页抓取。例如：",
+  "homepage.key": "关键组成部分",
+  "homepage.key.1": "Smart Packet 格式 — 自包含、结构化的答案",
+  "homepage.key.2": "SPID URI — 全局唯一的地址",
+  "homepage.key.3": "SPID 目录 — 中心解析服务",
+  "homepage.key.4": "PulseIDs — 用于代理和用户的异步语音收件箱"
+}

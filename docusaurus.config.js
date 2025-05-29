@@ -17,19 +17,20 @@ module.exports = {
 
   i18n: {
   defaultLocale: 'en',
-  locales: ['en', 'fr', 'zh'],
+  locales: ['en', 'zh', 'fr'],
   localeConfigs: {
-    en: { label: 'English' },
-    fr: {
-      label: 'Français',
-      path: 'fr',
+    en: {
+      label: 'English',
     },
     zh: {
       label: '中文',
-      path: 'zh',
+    },
+    fr: {
+      label: 'Français',
     },
   },
 },
+
 presets: [
   [
     '@docusaurus/preset-classic',
