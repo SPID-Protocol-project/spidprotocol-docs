@@ -17,4 +17,16 @@
   font-size: 1.3rem;
   color: #555;
 }
+.section {
+  padding: 4rem 0;
+}
+
+.sectionAlt {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+.mainContent {
+  background: #ffffff;
+}
 
