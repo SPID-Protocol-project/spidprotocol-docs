@@ -18,6 +18,7 @@ const sidebars = {
         'use-cases',
         'contributing',
         'roadmap',
+        'story-of-our-logo',
       ],
     },
   ],
