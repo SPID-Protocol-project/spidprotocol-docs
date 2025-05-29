@@ -13,7 +13,7 @@ module.exports = {
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/spid-favicon.ico',
+  favicon: 'img/spid_favicon.ico',
 
   i18n: {
     defaultLocale: 'en',
