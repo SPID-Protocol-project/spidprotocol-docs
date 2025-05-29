@@ -1,72 +1,114 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import Translate, { translate } from '@docusaurus/Translate';
 import styles from './index.module.css';
 
 export default function Home() {
   return (
     <Layout
-      title={translate({ id: 'homepage.title', message: 'SPID Protocol' })}
-      description={translate({
-        id: 'homepage.subtitle',
-        message: 'Smart Packets. Structured Answers. Voice-Ready.',
-      })}
+      title="SPID Protocol"
+      description="Smart Packets. Structured Answers. Voice-Ready."
     >
       <header className={styles.heroBanner}>
         <div className="container">
-          <h1 className="hero__title">
-            <Translate id="homepage.title">SPID Protocol</Translate>
-          </h1>
-          <p className="hero__subtitle">
-            <Translate id="homepage.subtitle">
-              Smart Packets. Structured Answers. Voice-Ready.
-            </Translate>
-          </p>
+          <h1 className="hero__title">SPID Protocol</h1>
+          <p className="hero__subtitle">Smart Packets. Structured Answers. Voice-Ready.</p>
           <div style={{ marginTop: '1.5rem' }}>
             <Link className="button button--primary button--lg" to="/docs/intro">
-              <Translate id="homepage.getStarted">Get Started</Translate>
+              Get Started
             </Link>
           </div>
         </div>
       </header>
 
-      <main>
-        <section className={styles.featuresSection}>
+      <main className={styles.mainContent}>
+        <section className={styles.section}>
           <div className="container">
-            <div className="row">
-              <div className="col col--6">
-                <h2><Translate id="homepage.whatIs">What is SPID?</Translate></h2>
-                <p>
-                  <Translate id="homepage.whatIs.desc">
-                    SPID is a resolution and retrieval protocol for AI agents, apps, and users to access structured,
-                    voice-ready content units called Smart Packets — complete with transcripts, metadata, intents, and CTAs.
-                  </Translate>
-                </p>
-              </div>
-              <div className="col col--6">
-                <h2><Translate id="homepage.why">Why It Matters</Translate></h2>
-                <p>
-                  <Translate id="homepage.why.desc">
-                    SPID replaces guesswork and scraping with resolution. For example:
-                  </Translate>
-                  <br />
-                  <code>spid://acme/widget123</code>
-                </p>
-              </div>
-            </div>
+            <h2>The Identity Layer for Smart AI Communication</h2>
+            <p>
+              SPID is a resolution and retrieval protocol for AI assistants, agents, and applications to access
+              self-contained, voice-ready content units — Smart Packets — complete with transcripts, metadata, intents,
+              and CTAs. It's the future of how AI communicates.
+            </p>
+          </div>
+        </section>
 
-            <div className="row" style={{ marginTop: '2rem' }}>
-              <div className="col col--12">
-                <h2><Translate id="homepage.key">Key Components</Translate></h2>
-                <ul>
-                  <li><strong><Translate id="homepage.key.1">Smart Packet Format — Self-contained, structured answers</Translate></strong></li>
-                  <li><strong><Translate id="homepage.key.2">SPID URIs — Globally unique addresses</Translate></strong></li>
-                  <li><strong><Translate id="homepage.key.3">SPID Directory — Central resolution service</Translate></strong></li>
-                  <li><strong><Translate id="homepage.key.4">PulseIDs — Async inboxes for agents and people</Translate></strong></li>
-                </ul>
-              </div>
-            </div>
+        <section className={styles.sectionAlt}>
+          <div className="container">
+            <h2>The Problem</h2>
+            <p>
+              AI is everywhere — answering questions, booking appointments, routing support. But today’s internet is a maze
+              of unstructured data, outdated web pages, and scraped content. The result? Confused answers, hallucinations,
+              and missed intent.
+            </p>
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <div className="container">
+            <h2>The Solution: SPID</h2>
+            <p>
+              SPID replaces guesswork with a structured protocol for delivering real answers. With SPID, content is:
+            </p>
+            <ul>
+              <li><strong>Structured</strong> — Not just a blob of HTML, but voice-ready, AI-readable packets</li>
+              <li><strong>Intent-aware</strong> — Clear user goals attached to every message</li>
+              <li><strong>Routable</strong> — Each packet has a globally unique <code>spid://</code> URI</li>
+              <li><strong>Voice-ready</strong> — Instant playback with transcript and call-to-action logic</li>
+              <li><strong>Agent-friendly</strong> — Perfect for AI assistants that need to respond intelligently</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className={styles.sectionAlt}>
+          <div className="container">
+            <h2>How It Works</h2>
+            <ul>
+              <li><strong>Smart Packet Format</strong> – Modular packets with voice, text, metadata, and CTAs</li>
+              <li><strong>SPID URIs</strong> – Globally unique IDs like <code>spid://acme/warranty-lookup</code></li>
+              <li><strong>PulseIDs</strong> – Async inboxes for agents and people (e.g., <code>spid://rick/pulse</code>)</li>
+              <li><strong>SPID Directory</strong> – Public resolution service where agents fetch the correct packet</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <div className="container">
+            <h2>Real-World Use Cases</h2>
+            <ul>
+              <li><strong>Customer Service AI</strong> — Instantly delivers the right answer, not a guess</li>
+              <li><strong>Sales Funnels</strong> — Voice messages + CTAs drive engagement and conversion</li>
+              <li><strong>Personal Voice Inbox</strong> — Leave voice messages with intent and reply logic</li>
+              <li><strong>Healthcare, Legal, Education</strong> — Structured packets replace legacy forms</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className={styles.sectionAlt}>
+          <div className="container">
+            <h2>Why It Matters</h2>
+            <p>
+              SPID isn’t just a protocol. It’s the foundation of a new layer of the internet — one designed for AI agents,
+              voice-first experiences, and structured retrieval.
+            </p>
+            <p>
+              It’s like DNS for answers.  
+              <br />
+              Like SMTP for structured replies.  
+              <br />
+              Like the missing link between humans and AI.
+            </p>
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <div className="container">
+            <h2>Get Involved</h2>
+            <ul>
+              <li><Link to="/docs/intro">Read the Docs</Link> – Learn how SPID works under the hood</li>
+              <li><Link to="/docs/start-building">Build with Smart Packets</Link> – Use SPID in your apps</li>
+              <li><Link to="/docs/community">Join the Community</Link> – Help shape the future of structured AI communication</li>
+            </ul>
           </div>
         </section>
       </main>
