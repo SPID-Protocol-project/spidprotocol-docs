@@ -100,6 +100,19 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <section className={styles.section}>
+  <div className="container">
+    <h2>SPID Protocol Overview</h2>
+    <p>This diagram shows how AI agents, Smart Packets, PulseIDs, and the SPID Directory work together to deliver structured, voice-ready communication.</p>
+    <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+      <img
+        src="/img/spid-diagram.png"
+        alt="SPID Protocol Architecture"
+        style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}
+      />
+    </div>
+  </div>
+</section>
 
         <section className={styles.section}>
           <div className="container">
