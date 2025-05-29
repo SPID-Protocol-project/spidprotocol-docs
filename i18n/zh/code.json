@@ -1,14 +1,14 @@
 {
   "homepage.title": "SPID 协议",
-  "homepage.subtitle": "Smart Packets. 结构化答案. 语音就绪.",
+  "homepage.subtitle": "智能数据包。结构化答案。语音就绪。",
   "homepage.getStarted": "开始使用",
   "homepage.whatIs": "什么是 SPID？",
-  "homepage.whatIs.desc": "SPID 是一个为 AI 代理、应用和用户提供结构化、语音就绪内容单元（称为 Smart Packet）的解析和检索协议，这些内容单元包含文本、元数据、意图和 CTA。",
-  "homepage.why": "为什么这很重要",
-  "homepage.why.desc": "SPID 通过解析替代了猜测和网页抓取。例如：",
-  "homepage.key": "关键组成部分",
-  "homepage.key.1": "Smart Packet 格式 — 自包含、结构化的答案",
-  "homepage.key.2": "SPID URI — 全局唯一的地址",
-  "homepage.key.3": "SPID 目录 — 中心解析服务",
-  "homepage.key.4": "PulseIDs — 用于代理和用户的异步语音收件箱"
+  "homepage.whatIs.desc": "SPID 是一个用于 AI 助手、应用程序和用户访问结构化、语音就绪内容单元（称为智能数据包）的解析和检索协议 —— 包括转录、元数据、意图和 CTA。",
+  "homepage.why": "为何重要",
+  "homepage.why.desc": "SPID 用解析替代猜测和抓取。例如：",
+  "homepage.key": "关键组件",
+  "homepage.key.1": "智能数据包格式 — 自包含、结构化答案",
+  "homepage.key.2": "SPID URI — 全局唯一地址",
+  "homepage.key.3": "SPID 目录 — 中央解析服务",
+  "homepage.key.4": "PulseID — 用于代理和个人的异步收件箱"
 }
