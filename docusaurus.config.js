@@ -16,45 +16,36 @@ module.exports = {
   favicon: 'img/spid-favicon.ico',
 
   i18n: {
-  defaultLocale: 'en',
-  locales: ['en', 'fr', 'zh'],
-  localeConfigs: {
-    en: {
-      label: 'English',
-    },
-    fr: {
-      label: 'Français',
-    },
-    zh: {
-      label: '中文',
+    defaultLocale: 'en',
+    locales: ['en', 'fr', 'zh'],
+    localeConfigs: {
+      en: { label: 'English' },
+      fr: { label: 'Français' },
+      zh: { label: '中文' },
     },
   },
-},
 
-
-presets: [
-  [
-    '@docusaurus/preset-classic',
-    {
-      docs: {
-        path: 'docs',
-        routeBasePath: 'docs',
-        sidebarPath: require.resolve('./sidebars.js'),
-        editLocalizedFiles: true,
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editLocalizedFiles: true,
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+        },
+        blog: {
+          showReadingTime: true,
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
       },
-      blog: {
-        showReadingTime: true,
-      },
-      theme: {
-        customCss: require.resolve('./src/css/custom.css'),
-      },
-    }, // ✅ <-- this closing brace was missing
+    ],
   ],
-],
-
-
 
   themeConfig: {
     navbar: {
