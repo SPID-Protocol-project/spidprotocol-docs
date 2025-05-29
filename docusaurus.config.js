@@ -132,14 +132,10 @@ module.exports = {
 footer: {
   style: 'dark',
   links: [
-    // your existing footer links
+    // your existing links go here
   ],
-  copyright: `Copyright © ${new Date().getFullYear()} VoiceMate / ChatSites LLC. <br />
-  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
-    <img alt="Creative Commons License" style="vertical-align:middle; height:22px;" 
-      src="https://licensebuttons.net/l/by/4.0/88x31.png" />
-    <span style="margin-left: 0.5rem; vertical-align:middle;">
-      This work is licensed under a Creative Commons Attribution 4.0 International License.
-    </span>
-  </a>`
-}
+  copyright: `Copyright © ${new Date().getFullYear()} VoiceMate / ChatSites LLC.`,
+  // Add this custom license HTML badge below as a new field
+  // (this part is not standard, but you can move it into a custom component later)
+  // If needed, this can be part of a page instead.
+},
