@@ -5,11 +5,12 @@ const sidebars = require('./sidebars.js');
 module.exports = {
   title: 'SPID Protocol',
   tagline: 'Smart Packets. Structured Answers. Voice-Ready.',
-  url: 'https://SPID-Protocol-project.github.io',
+  url: 'https://spidprotocol-project.github.io',
   baseUrl: '/spidprotocol-docs/',
   organizationName: 'SPID-Protocol-project',
   projectName: 'spidprotocol-docs',
   deploymentBranch: 'gh-pages',
+  gitRemoteUrl: 'https://github.com/SPID-Protocol-project/spidprotocol-docs.git',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
