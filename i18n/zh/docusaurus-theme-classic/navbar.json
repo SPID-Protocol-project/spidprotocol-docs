@@ -1,7 +1,17 @@
 {
-  "navbar.title": "SPID 协议",
-  "navbar.docs": "文档",
-  "navbar.blog": "博客",
-  "navbar.github": "GitHub",
-  "navbar.language": "语言"
+  "navbar.title": {
+    "message": "SPID 协议"
+  },
+  "navbar.docs": {
+    "message": "文档"
+  },
+  "navbar.blog": {
+    "message": "博客"
+  },
+  "navbar.github": {
+    "message": "GitHub"
+  },
+  "navbar.language": {
+    "message": "语言"
+  }
 }

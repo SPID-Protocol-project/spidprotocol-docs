@@ -1,8 +1,18 @@
 {
-  "navbar.title": "SPID Protocol",
-  "navbar.docs": "Documentation",
-  "navbar.blog": "Blog",
-  "navbar.github": "GitHub",
-  "navbar.language": "Langue"
+  "navbar.title": {
+    "message": "SPID Protocole"
+  },
+  "navbar.docs": {
+    "message": "Documentation"
+  },
+  "navbar.blog": {
+    "message": "Blog"
+  },
+  "navbar.github": {
+    "message": "GitHub"
+  },
+  "navbar.language": {
+    "message": "Langue"
+  }
 }
 
