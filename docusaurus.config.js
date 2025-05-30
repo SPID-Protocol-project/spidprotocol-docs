@@ -5,9 +5,9 @@ const sidebars = require('./sidebars.js');
 module.exports = {
   title: 'SPID Protocol',
   tagline: 'Smart Packets. Structured Answers. Voice-Ready.',
-  url: 'https://spidprotocol-project.github.io',
+  url: 'https://spidprotocol.github.io',
   baseUrl: '/spidprotocol-docs/',
-  organizationName: 'SPID-Protocol-project',
+  organizationName: 'SPID-Protocol',
   projectName: 'spidprotocol-docs',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -78,14 +78,14 @@ module.exports = {
           position: 'right',
           value: `
             <div style="display: flex; align-items: center; gap: 6px;">
-              <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs" target="_blank">
-                <img src="https://img.shields.io/github/v/release/SPID-Protocol-project/spidprotocol-docs?label=version&color=brightgreen" />
+              <a href="https://github.com/SPID-Protocol/spidprotocol-docs" target="_blank">
+                <img src="https://img.shields.io/github/v/release/SPID-Protocol/spidprotocol-docs?label=version&color=brightgreen" />
               </a>
-              <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/stargazers" target="_blank">
-                <img src="https://img.shields.io/github/stars/SPID-Protocol-project/spidprotocol-docs?style=social" />
+              <a href="https://github.com/SPID-Protocol/spidprotocol-docs/stargazers" target="_blank">
+                <img src="https://img.shields.io/github/stars/SPID-Protocol/spidprotocol-docs?style=social" />
               </a>
-              <a href="https://github.com/SPID-Protocol-project/spidprotocol-docs/network/members" target="_blank">
-                <img src="https://img.shields.io/github/forks/SPID-Protocol-project/spidprotocol-docs?style=social" />
+              <a href="https://github.com/SPID-Protocol/spidprotocol-docs/network/members" target="_blank">
+                <img src="https://img.shields.io/github/forks/SPID-Protocol/spidprotocol-docs?style=social" />
               </a>
             </div>
           `,
@@ -96,7 +96,7 @@ module.exports = {
     algolia: {
       appId: '6SO3NK58E1',
       apiKey: '28b9141bf7ced7e91430110f1ba9896e',
-      indexName: 'spid-protocol-projectio',
+      indexName: 'spid-protocol',
       insights: true,
     },
 
@@ -153,7 +153,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/SPID-Protocol-project/spidprotocol-docs',
+              href: 'https://github.com/SPID-Protocol/spidprotocol-docs',
             },
           ],
         },
