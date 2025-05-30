@@ -4,8 +4,8 @@
   <ShortName>SPID Protocol</ShortName>
   <Description>Search SPID Protocol</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://spidprotocol-project.github.io/spidprotocol-docs/zh/img/spid_favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://spidprotocol-project.github.io/spidprotocol-docs/zh/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://spidprotocol-project.github.io/spidprotocol-docs/zh/opensearch.xml" />
-  <moz:SearchForm>https://spidprotocol-project.github.io/spidprotocol-docs/zh/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://spidprotocol.github.io/spidprotocol-docs/zh/img/spid_favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://spidprotocol.github.io/spidprotocol-docs/zh/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://spidprotocol.github.io/spidprotocol-docs/zh/opensearch.xml" />
+  <moz:SearchForm>https://spidprotocol.github.io/spidprotocol-docs/zh/</moz:SearchForm>
 </OpenSearchDescription>
